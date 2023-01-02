@@ -19,7 +19,7 @@ with st.expander("Ingresos"):
 with st.expander("Gastos"):
 
     with st.container():
-        with st.expander("Gastos"):
+        with st.expander("Gastos2"):
             with st.form("my_form"):
                 st.write("Inside the form")
                 slider_val = st.slider("Form slider")
