@@ -92,12 +92,6 @@ with st.expander("Gastos"):
             Diario = Diario.append(new_row, ignore_index=True)
             st.success('This is a success message!!', icon="✅")
 
-#Diario=DiarioNuevo(Diario)
-st.write("Saludos")
-
-my_table = st.table(Diario)
-my_table.add_rows(new_row)
-            
 
 with st.expander("Metricas y resultados"):
     
