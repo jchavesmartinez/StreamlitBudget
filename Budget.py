@@ -15,7 +15,7 @@ with st.expander("Presupuesto 2023"):
     
 with st.expander("Ingresos"):
     number1 = st.number_input('Salario mensual neto Jose',1207000)
-    number2 = st.number_input('Salario mensual neto Aline')
+    number2 = st.number_input('Salario mensual neto Aline',600000)
 
     if st.checkbox("Registrar ingreso"):
         with st.form("my_form"):
