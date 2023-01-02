@@ -17,4 +17,6 @@ with st.container():
         st.write("Holi")
     with st.expander("Gastos"):
         st.write("Holi")
+    with st.expander("Metricas y resultados"):
+        st.write("Holi")
 
