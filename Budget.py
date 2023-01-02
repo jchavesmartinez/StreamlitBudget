@@ -57,6 +57,7 @@ with st.expander("Metricas y resultados"):
         fechafiltrar= mes_option + ' II'
     
     DiarioFinal=Diario[Diario['Fecha'].str.contains(fechafiltrar)]
+    DiarioFinal = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
 
 
     st.dataframe(DiarioFinal,use_container_width=True)
