@@ -46,7 +46,8 @@ with st.expander("Gastos"):
             st.write("slider")
 
 with st.expander("Metricas y resultados"):
-    st.write("Holi")
+    mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
+            
 
 with st.expander("Saldos"):
     st.write("Holi")
