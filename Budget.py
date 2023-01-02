@@ -77,6 +77,7 @@ with st.expander("Ingresos"):
 with st.expander("Gastos"):
     
     Diario=Diario
+    st.dataframe(Diario,use_container_width=True)
     
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
