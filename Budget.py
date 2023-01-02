@@ -53,23 +53,27 @@ with st.expander("Metricas y resultados"):
     
     
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
-    quicena_option = st.selectbox('Seleccione la quincena',('Primera quincena', 'Segunda quincena'))
+    quicena_option = st.selectbox('Seleccione la quincena',('Primera quincena', 'Segunda quincena','Ambas'))
     if  quicena_option=='Primera quincena':
         fechafiltrar= mes_option + ' I '
+        DiarioFinal=Diario[Diario['Fecha']==fechafiltrar]
     elif quicena_option=='Segunda quincena':
         fechafiltrar= mes_option + ' II '
+        DiarioFinal=Diario[Diario['Fecha']==fechafiltrar]
+    elif quicena_option=='Ambas':
+        DiarioFinal=Diario[Diario['Fecha'].str.contains(mes_option)]
     
-    DiarioFinal=Diario[Diario['Fecha']==fechafiltrar]
-    DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
-    DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
+    
+    #DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
+    #DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
-        st.dataframe(DiarioFinal2,use_container_width=True)
+        st.dataframe(DiarioFinal,use_container_width=True)
 
     with tab2:
-        st.dataframe(DiarioFinal1,use_container_width=True)
+        st.dataframe(DiarioFinal,use_container_width=True)
   
 
 with st.expander("Saldos"):
