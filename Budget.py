@@ -16,11 +16,6 @@ st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
-#path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
-#Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
-#Diario.reset_index(inplace=True)
-
-
 CONNECTION_STRING = 'mongodb://presupuesto2023:CBCE5lRc5JX778aCQVXb9EmUJAnEA76qYuC3XAElUjuhkoJXJoy0pt4C0EZgHEygtT1R2j2iI1mvACDb6ljS4w==@presupuesto2023.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@presupuesto2023@' # Prompts user for connection string
 DB_NAME = "Presupuesto"
 
@@ -100,10 +95,10 @@ with st.expander("Gastos"):
             monto_ingreso2 = st.number_input('Monto')
             currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
             nota_input2 = st.text_input('Comentario')
-            
             submitted2 = st.form_submit_button("Submit")
         
         if submitted2:
+            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual'})
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
