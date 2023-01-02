@@ -19,7 +19,6 @@ hoy=date.today().strftime("%d-%b-%Y")
 mes=datetime.now().date().month
 dia=date.today().strftime("%d")
 
-
 st.write(hoy)
 
 if mes==1:
@@ -54,7 +53,6 @@ if int(dia)>15:
 
 fecha=mes+quincena
 
-st.write(fecha)
 
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
