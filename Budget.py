@@ -57,6 +57,8 @@ with st.expander("Metricas y resultados"):
         fechafiltrar= mes_option + ' II'
     
     DiarioFinal=Diario[Diario['Fecha'].str.contains(fechafiltrar)]
+    
+
     st.dataframe(DiarioFinal,use_container_width=True)
   
 
