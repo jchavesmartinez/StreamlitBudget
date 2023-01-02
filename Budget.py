@@ -50,7 +50,10 @@ with st.expander("Gastos"):
 
 with st.expander("Metricas y resultados"):
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
-    st.dataframe(Diario,use_container_width=True)      
+    
+    
+    DiarioFinal=Diario[Diario['Fecha'].str.contains(mes_option)]
+    st.dataframe(DiarioFinal,use_container_width=True)      
 
 with st.expander("Saldos"):
     st.write("Holi")
