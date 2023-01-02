@@ -12,6 +12,7 @@ Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
 path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
 Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
+Diario['Monto'] = Diario['Monto'].astype(float)
 
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
@@ -57,7 +58,7 @@ with st.expander("Metricas y resultados"):
         fechafiltrar= mes_option + ' II'
     
     DiarioFinal=Diario[Diario['Fecha'].str.match(fechafiltrar)]
-    DiarioFinal = DiarioFinal.groupby(['Fecha','Motivo'])['Monto'].sum()
+    DiarioFinal = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
 
 
     st.dataframe(DiarioFinal,use_container_width=True)
