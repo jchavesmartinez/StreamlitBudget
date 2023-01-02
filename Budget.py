@@ -75,9 +75,7 @@ with st.expander("Ingresos"):
             st.write("slider")
 
 with st.expander("Gastos"):
-    
-    Diario=Diario
-    Diario2=st.dataframe(Diario,use_container_width=True)
+    quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
     
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
@@ -92,7 +90,6 @@ with st.expander("Gastos"):
         if submitted2:
             #list_row = [motivo_option2, 'Gasto', monto_ingreso2, fecha,'2. Actual']
             new_row = {'Motivo':motivo_option2, 'Tipo':'Gasto', 'Monto':monto_ingreso2, 'Fecha':fecha, 'Escenario':'2. Actual'}
-            Diario2.add_rows(new_row)
             st.success('This is a success message!!', icon="✅")
 
 
@@ -132,7 +129,7 @@ with st.expander("Metricas y resultados"):
 
     with tab1:
         st.dataframe(DiarioFinal1,use_container_width=True)
-        st.write(mes_option)
+        st.write(quicena_option2)
 
     with tab2:
         st.write("Proximamente grafiquitos bonitos")
