@@ -53,9 +53,9 @@ with st.expander("Metricas y resultados"):
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
     quicena_option = st.selectbox('Seleccione la quincena',('Primera quincena', 'Segunda quincena'))
     if  quicena_option=='Primera quincena':
-        fechafiltrar= mes_option + ' I'
+        fechafiltrar= mes_option + ' I '
     elif quicena_option=='Segunda quincena':
-        fechafiltrar= mes_option + ' II'
+        fechafiltrar= mes_option + ' II '
     
     DiarioFinal=Diario[Diario['Fecha']==fechafiltrar]
     DiarioFinal = DiarioFinal.groupby(['Fecha','Motivo','Escenario'])['Monto'].sum()
