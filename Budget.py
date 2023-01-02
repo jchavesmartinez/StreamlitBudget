@@ -59,7 +59,7 @@ with st.expander("Metricas y resultados"):
     DiarioFinal=Diario[Diario['Fecha'].str.contains(fechafiltrar)]
 
 
-    st.dataframe(DiarioFinal,use_container_width=False)
+    st.dataframe(Diario,use_container_width=False)
   
 
 with st.expander("Saldos"):
