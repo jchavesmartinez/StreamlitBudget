@@ -17,7 +17,7 @@ with st.container():
         number1 = st.number_input('Salario mensual neto Jose')
         number2 = st.number_input('Salario mensual neto Aline')
     with st.expander("Gastos"):
-        with st.container():
+        with st.expander("Registrar gastos"):
             with st.form("my_form"):
                 st.write("Inside the form")
                 slider_val = st.slider("Form slider")
