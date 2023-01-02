@@ -50,6 +50,7 @@ with st.expander("Gastos"):
 
 with st.expander("Metricas y resultados"):
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
+    quicena_option = st.selectbox('Seleccione la quincena',('Primera quincena', 'Segunda quincena'))
     
     
     DiarioFinal=Diario[Diario['Fecha'].str.contains(mes_option)]
