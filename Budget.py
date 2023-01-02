@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import os
 
-
+st.set_page_config(layout="wide")
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 
 with st.container():
