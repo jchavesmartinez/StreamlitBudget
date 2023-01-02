@@ -73,7 +73,7 @@ if st.checkbox("Ver ingresos 2023"):
         if submitted:
             st.write("slider")
 
-with st.expander("Gastos"):
+if st.checkbox("Ver gastos 2023"):
     
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
@@ -92,7 +92,7 @@ with st.expander("Gastos"):
             st.success('This is a success message!!', icon="✅")
 
 
-with st.expander("Metricas y resultados"):
+if st.checkbox("Ver metricas y resultados 2023"):
     
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
     quicena_option = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
