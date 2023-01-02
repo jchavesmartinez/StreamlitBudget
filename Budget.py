@@ -11,7 +11,7 @@ path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Bu
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
 path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
-Diario = pd.read_csv(path2, encoding='utf8')
+Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
 #Diario['Monto'] = Diario['Monto'].astype(float)
 
 with st.expander("Presupuesto 2023"):
