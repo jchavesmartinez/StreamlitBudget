@@ -75,8 +75,12 @@ with st.expander("Ingresos"):
             st.write("slider")
 
 with st.expander("Gastos"):
-    quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
     
+    def option():
+        quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
+        return quicena_option2
+
+
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
             motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boltos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comidas afuera','Agua'))
@@ -129,6 +133,9 @@ with st.expander("Metricas y resultados"):
 
     with tab1:
         st.dataframe(DiarioFinal1,use_container_width=True)
+        
+        quicena_option2=option()
+
         st.write(quicena_option2)
 
     with tab2:
