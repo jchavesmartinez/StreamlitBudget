@@ -10,6 +10,9 @@ st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
+path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
+Diario = pd.read_csv(path2, encoding='latin-1',index_col=0)
+
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
     
@@ -47,7 +50,7 @@ with st.expander("Gastos"):
 
 with st.expander("Metricas y resultados"):
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
-            
+    st.dataframe(Diario,use_container_width=True)      
 
 with st.expander("Saldos"):
     st.write("Holi")
