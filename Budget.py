@@ -6,5 +6,4 @@ st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 import streamlit as st
 
 with st.sidebar:
-    with st.echo():
-        st.button('Say hello')
+    st.button('Say hello')
