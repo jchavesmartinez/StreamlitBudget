@@ -61,7 +61,7 @@ with st.expander("Metricas y resultados"):
     DiarioFinal = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
 
 
-    st.dataframe(DiarioFinal,use_container_width=False)
+    st.dataframe(DiarioFinal,use_container_width=True)
   
 
 with st.expander("Saldos"):
