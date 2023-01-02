@@ -50,6 +50,8 @@ with st.expander("Gastos"):
             st.write("slider")
 
 with st.expander("Metricas y resultados"):
+    
+    
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
     quicena_option = st.selectbox('Seleccione la quincena',('Primera quincena', 'Segunda quincena'))
     if  quicena_option=='Primera quincena':
@@ -58,10 +60,16 @@ with st.expander("Metricas y resultados"):
         fechafiltrar= mes_option + ' II '
     
     DiarioFinal=Diario[Diario['Fecha']==fechafiltrar]
-    DiarioFinal = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
+    DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
+    DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
 
+    tab1, tab2= st.tabs(["Resumen", "Dog"])
 
-    st.dataframe(DiarioFinal,use_container_width=True)
+    with tab1:
+        st.dataframe(DiarioFinal1,use_container_width=True)
+
+    with tab2:
+        st.dataframe(DiarioFinal2,use_container_width=True)
   
 
 with st.expander("Saldos"):
