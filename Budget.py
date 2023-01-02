@@ -75,6 +75,9 @@ with st.expander("Ingresos"):
             st.write("slider")
 
 with st.expander("Gastos"):
+    
+    Diario=Diario
+    
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
             motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boltos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comidas afuera','Agua'))
