@@ -58,7 +58,7 @@ with st.expander("Metricas y resultados"):
     
     DiarioFinal=Diario[Diario['Fecha'].str.contains(fechafiltrar)]
     st.dataframe(DiarioFinal,use_container_width=True)
-    st.write(fechafiltrar)      
+  
 
 with st.expander("Saldos"):
     st.write("Holi")
