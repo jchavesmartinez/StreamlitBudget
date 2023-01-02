@@ -88,6 +88,8 @@ with st.expander("Gastos"):
         if submitted2:
             list_row = [motivo_option2, 'Gasto', monto_ingreso2, fecha,'2. Actual']
             Diario.loc[len(Diario)] = list_row
+            st.success('This is a success message!', icon="✅")
+
             
 
 with st.expander("Metricas y resultados"):
