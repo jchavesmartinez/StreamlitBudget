@@ -53,7 +53,7 @@ with st.expander("Metricas y resultados"):
     
     
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
-    quicena_option = st.selectbox('Seleccione la quincena',('Primera quincena', 'Segunda quincena','Ambas'))
+    quicena_option = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
     if  quicena_option=='Primera quincena':
         fechafiltrar= mes_option + ' I '
         DiarioFinal=Diario[Diario['Fecha']==fechafiltrar]
@@ -72,7 +72,7 @@ with st.expander("Metricas y resultados"):
     #DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
     DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
 
-    DiarioFinal1 = pd.merge(DiarioFinal2, DiarioFinalPresupuesto, on=["Motivo", "Motivo"])
+    DiarioFinal1 = pd.merge(DiarioFinal2, DiarioFinalPresupuesto, on=["Motivo"])
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
