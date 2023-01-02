@@ -11,7 +11,7 @@ path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Bu
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
 path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
-Diario = pd.read_csv(path2, encoding='latin-1',index_col=0)
+Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
 
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
@@ -57,7 +57,7 @@ with st.expander("Metricas y resultados"):
         fechafiltrar= mes_option + ' II'
     
     DiarioFinal=Diario[Diario['Fecha'].str.contains(fechafiltrar)]
-    DiarioFinal = DiarioFinal.groupby(['Motivo','Escenario','Fecha'])['Monto'].sum()
+    DiarioFinal = Diario.groupby(['Fecha','Motivo','Escenario'])['Monto'].sum()
 
 
     st.dataframe(DiarioFinal,use_container_width=True)
