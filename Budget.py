@@ -3,7 +3,7 @@ import time
 
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 
-import streamlit as st
+with st.container():
+    with st.expander("See explanation"):
+        st.write("Holi")
 
-with st.sidebar:
-    st.button('Say hello')
