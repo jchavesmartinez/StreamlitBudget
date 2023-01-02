@@ -17,18 +17,15 @@ with st.expander("Ingresos"):
     number2 = st.number_input('Salario mensual neto Aline')
 
 with st.expander("Gastos"):
+    with st.form("my_form"):
+        st.write("Inside the form")
+        slider_val = st.slider("Form slider")
+        checkbox_val = st.checkbox("Form checkbox")
 
-    with st.container():
-        with st.expander("Gastos2"):
-            with st.form("my_form"):
-                st.write("Inside the form")
-                slider_val = st.slider("Form slider")
-                checkbox_val = st.checkbox("Form checkbox")
-
-                # Every form must have a submit button.
-                submitted = st.form_submit_button("Submit")
-            if submitted:
-                st.write("slider", slider_val, "checkbox", checkbox_val)
+        # Every form must have a submit button.
+        submitted = st.form_submit_button("Submit")
+    if submitted:
+        st.write("slider", slider_val, "checkbox", checkbox_val)
 
 with st.expander("Metricas y resultados"):
     st.write("Holi")
