@@ -25,30 +25,30 @@ st.write(hoy)
 #st.write(mes)
 #st.write(dia)
 
-if int(mes)==1:
-    mes=='Enero'
+if mes==1:
+    mes='Enero'
 elif mes==2:
-    mes=='Febrero'
+    mes='Febrero'
 elif mes==3:
-    mes=='Marzo'
+    mes='Marzo'
 elif mes==4:
-    mes=='Abril'
+    mes='Abril'
 elif mes==5:
-    mes=='Mayo'
+    mes='Mayo'
 elif mes==6:
-    mes=='Junio'
+    mes='Junio'
 elif mes==7:
-    mes=='Julio'
+    mes='Julio'
 elif mes==8:
-    mes=='Agosto'
+    mes='Agosto'
 elif mes==9:
-    mes=='Setiembre'
+    mes='Setiembre'
 elif mes==10:
-    mes=='Octubre'
+    mes='Octubre'
 elif mes==11:
-    mes=='Noviembre'
+    mes='Noviembre'
 elif mes==12:
-    mes=='Diciembre'
+    mes='Diciembre'
 
 st.write(mes)
 
