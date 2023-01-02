@@ -33,14 +33,15 @@ with st.expander("Ingresos"):
 with st.expander("Gastos"):
     if st.checkbox("Registrar gasto"):
         with st.form("my_form"):
-            st.write("Inside the form")
-            slider_val = st.slider("Form slider")
-            checkbox_val = st.checkbox("Form checkbox")
-
-            # Every form must have a submit button.
+            motivo_option = st.selectbox('Motivo',('Salario Jose', 'Salario Aline', 'Ingreso extra'))
+            monto_ingreso = st.number_input('Monto')
+            currency_option = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
+            nota_input = st.text_input('Comentario')
+            
             submitted = st.form_submit_button("Submit")
+        
         if submitted:
-            st.write("slider", slider_val, "checkbox", checkbox_val)
+            st.write("slider")
 
 with st.expander("Metricas y resultados"):
     st.write("Holi")
