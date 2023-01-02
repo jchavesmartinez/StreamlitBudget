@@ -3,6 +3,7 @@ import time
 import pandas as pd
 import numpy as np
 import os
+from datetime import date
 
 st.set_page_config(layout="wide")
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
@@ -12,7 +13,10 @@ Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
 path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
 Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
-#Diario['Monto'] = Diario['Monto'].astype(float)
+
+hoy=date.today().strftime("%b-%d-%Y")
+
+st.write(hoy)
 
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
@@ -34,7 +38,6 @@ with st.expander("Ingresos"):
         if submitted:
             st.write("slider")
 
-
 with st.expander("Gastos"):
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
@@ -47,10 +50,9 @@ with st.expander("Gastos"):
             submitted2 = st.form_submit_button("Submit")
         
         if submitted2:
-            st.write("slider")
+            list_row = [motivo_option2, 'Gasto', monto_ingreso2, 2000]
 
 with st.expander("Metricas y resultados"):
-    
     
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
     quicena_option = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
@@ -88,7 +90,6 @@ with st.expander("Metricas y resultados"):
     with tab2:
         st.write("Proximamente grafiquitos bonitos")
   
-
 with st.expander("Saldos"):
     tab3, tab4, tab5= st.tabs(["Debito", "Credito", 'Tasas 0'])
 
