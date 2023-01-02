@@ -79,6 +79,7 @@ with st.expander("Gastos"):
     def option():
         quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
         return quicena_option2
+    option()
 
 
     if st.checkbox("Registrar gasto"):
