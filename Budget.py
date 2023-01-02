@@ -14,7 +14,7 @@ with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
     
 with st.expander("Ingresos"):
-    number1 = st.number_input('Salario mensual neto Jose')
+    number1 = st.number_input('Salario mensual neto Jose',1207000)
     number2 = st.number_input('Salario mensual neto Aline')
 
     if st.checkbox("Registrar ingreso"):
@@ -42,5 +42,8 @@ with st.expander("Gastos"):
             st.write("slider", slider_val, "checkbox", checkbox_val)
 
 with st.expander("Metricas y resultados"):
+    st.write("Holi")
+
+with st.expander("Saldos"):
     st.write("Holi")
 
