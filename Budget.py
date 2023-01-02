@@ -19,8 +19,6 @@ mes=datetime.now().date().month
 dia=date.today().strftime("%d")
 
 
-
-
 st.write(hoy)
 
 if mes==1:
@@ -48,9 +46,9 @@ elif mes==11:
 elif mes==12:
     mes='Diciembre'
 
-if dia<15:
+if int(dia)<15:
     quincena=' I'
-if dia>15:
+if int(dia)>15:
     quincena=' II'
 
 fecha=mes+quincena
@@ -89,7 +87,9 @@ with st.expander("Gastos"):
             submitted2 = st.form_submit_button("Submit")
         
         if submitted2:
-            list_row = [motivo_option2, 'Gasto', monto_ingreso2, 2000]
+            list_row = [motivo_option2, 'Gasto', monto_ingreso2, fecha,'2. Actual']
+            Diario.loc[len(Diario)] = list_row
+            
 
 with st.expander("Metricas y resultados"):
     
