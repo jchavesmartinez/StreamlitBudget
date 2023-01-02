@@ -53,8 +53,7 @@ if int(dia)>15:
 
 fecha=mes+quincena
 
-
-with st.expander("Presupuesto 2023"):
+if st.checkbox("Registrar gasto"):
     st.dataframe(Budget2023,use_container_width=True)
     
 with st.expander("Ingresos"):
