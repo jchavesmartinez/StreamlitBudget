@@ -22,7 +22,7 @@ dia=date.today().strftime("%d")
 
 
 st.write(hoy)
-st.write(mes)
+#st.write(mes)
 #st.write(dia)
 
 if mes==1:
@@ -50,6 +50,7 @@ elif mes==11:
 elif mes==12:
     mes=='Diciembre'
 
+st.write(mes)
 
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
