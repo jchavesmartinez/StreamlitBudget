@@ -66,13 +66,15 @@ with st.expander("Metricas y resultados"):
     DiarioFinalPresupuesto=DiarioFinal[DiarioFinal['Escenario']=='1. Presupuesto']
     DiarioFinalPresupuesto = DiarioFinalPresupuesto.groupby(['Motivo'])['Monto'].sum()
     
-    DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
+    #DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
     DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
+
+    DiarioFinal1 = pd.merge(DiarioFinal2, DiarioFinalPresupuesto, on=["Motivo", "Motivo"])
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
-        st.dataframe(DiarioFinalPresupuesto,use_container_width=True)
+        st.dataframe(DiarioFinal1,use_container_width=True)
 
     with tab2:
         st.dataframe(DiarioFinal1,use_container_width=True)
