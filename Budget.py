@@ -53,10 +53,11 @@ if int(dia)>15:
 
 fecha=mes+quincena
 
-if st.checkbox("Ver presupuesto 2023"):
+
+with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
     
-if st.checkbox("Ver ingresos 2023"):
+with st.expander("Ingresos"):
     number1 = st.number_input('Salario mensual neto Jose',1207000)
     number2 = st.number_input('Salario mensual neto Aline',600000)
 
@@ -73,7 +74,7 @@ if st.checkbox("Ver ingresos 2023"):
         if submitted:
             st.write("slider")
 
-if st.checkbox("Ver gastos 2023"):
+with st.expander("Gastos"):
     
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
@@ -92,7 +93,7 @@ if st.checkbox("Ver gastos 2023"):
             st.success('This is a success message!!', icon="✅")
 
 
-if st.checkbox("Ver metricas y resultados 2023"):
+with st.expander("Metricas y resultados"):
     
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
     quicena_option = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
@@ -141,4 +142,3 @@ with st.expander("Saldos"):
 
     with tab5:
         st.write("Mostrar saldos cuentas tasas 0")
-
