@@ -56,7 +56,7 @@ fecha=mes+quincena
 if st.checkbox("Ver presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
     
-with st.expander("Ingresos"):
+if st.checkbox("Ver ingresos 2023"):
     number1 = st.number_input('Salario mensual neto Jose',1207000)
     number2 = st.number_input('Salario mensual neto Aline',600000)
 
