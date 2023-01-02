@@ -98,7 +98,7 @@ with st.expander("Gastos"):
 #Diario=DiarioNuevo(Diario)
 st.write("Saludos")
 
-st.dataframe(Diario,use_container_width=True)
+my_table = st.table(Diario)
             
 
 with st.expander("Metricas y resultados"):
