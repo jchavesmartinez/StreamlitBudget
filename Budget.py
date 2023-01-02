@@ -65,6 +65,9 @@ with st.expander("Metricas y resultados"):
     
     DiarioFinalPresupuesto=DiarioFinal[DiarioFinal['Escenario']=='1. Presupuesto']
     DiarioFinalPresupuesto = DiarioFinalPresupuesto.groupby(['Motivo'])['Monto'].sum()
+
+    DiarioFinalActual=DiarioFinal[DiarioFinal['Escenario']=='2. Actual']
+    DiarioFinalActual = DiarioFinalActual.groupby(['Motivo'])['Monto'].sum()
     
     #DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
     DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
@@ -77,7 +80,7 @@ with st.expander("Metricas y resultados"):
         st.dataframe(DiarioFinal1,use_container_width=True)
 
     with tab2:
-        st.dataframe(DiarioFinal1,use_container_width=True)
+        st.dataframe(DiarioFinalActual,use_container_width=True)
   
 
 with st.expander("Saldos"):
