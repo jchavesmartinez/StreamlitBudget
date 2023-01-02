@@ -16,7 +16,7 @@ Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
 
 hoy=date.today().strftime("%d-%b-%Y")
 mes=datetime.now().date().month
-dia=datetime.now().date().day
+dia=date.today().strftime("%d")
 
 
 
