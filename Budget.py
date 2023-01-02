@@ -14,7 +14,7 @@ Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
 Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
 
-hoy=date.today().strftime("%b-%d-%Y")
+hoy=date.today().strftime("%d-%b-%Y")
 
 st.write(hoy)
 
