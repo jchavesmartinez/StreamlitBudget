@@ -23,7 +23,7 @@ dia=date.today().strftime("%d")
 
 st.write(hoy)
 st.write(mes)
-st.write(dia)
+#st.write(dia)
 
 if mes==1:
     mes=='Enero'
