@@ -22,7 +22,7 @@ with st.expander("Ingresos"):
             motivo_option = st.selectbox('Motivo',('Salario Jose', 'Salario Aline', 'Ingreso extra'))
             monto_ingreso = st.number_input('Monto')
             currency_option = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
-            nota_input = st.text_input('Nota', 'Life of Brian')
+            nota_input = st.text_input('Comentario')
             
             submitted = st.form_submit_button("Submit")
         
