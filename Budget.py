@@ -98,7 +98,7 @@ with st.expander("Gastos"):
             submitted2 = st.form_submit_button("Submit")
         
         if submitted2:
-            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual'})
+            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual'})
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
