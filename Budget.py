@@ -25,7 +25,7 @@ st.write(hoy)
 #st.write(mes)
 #st.write(dia)
 
-if mes==1:
+if int(mes)==1:
     mes=='Enero'
 elif mes==2:
     mes=='Febrero'
