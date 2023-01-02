@@ -135,9 +135,9 @@ with st.expander("Metricas y resultados"):
     with tab1:
         st.dataframe(DiarioFinal1,use_container_width=True)
         
-        quicena_option2=option()
+        quicena_option22=option()
 
-        st.write(quicena_option2)
+        st.write(quicena_option22)
 
     with tab2:
         st.write("Proximamente grafiquitos bonitos")
