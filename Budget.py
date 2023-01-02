@@ -132,7 +132,7 @@ with st.expander("Metricas y resultados"):
 
     with tab1:
         st.dataframe(DiarioFinal1,use_container_width=True)
-        st.write(motivo_option2)
+        st.write(mes_option)
 
     with tab2:
         st.write("Proximamente grafiquitos bonitos")
