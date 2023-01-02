@@ -7,4 +7,4 @@ import streamlit as st
 
 with st.sidebar:
     with st.echo():
-        st.write('Why hello there')
+        st.button('Say hello')
