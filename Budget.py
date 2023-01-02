@@ -76,12 +76,6 @@ with st.expander("Ingresos"):
 
 with st.expander("Gastos"):
     
-    def option():
-        quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
-        return quicena_option2
-    option()
-
-
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
             motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boltos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comidas afuera','Agua'))
@@ -94,10 +88,15 @@ with st.expander("Gastos"):
         
         if submitted2:
             #list_row = [motivo_option2, 'Gasto', monto_ingreso2, fecha,'2. Actual']
-            new_row = {'Motivo':motivo_option2, 'Tipo':'Gasto', 'Monto':monto_ingreso2, 'Fecha':fecha, 'Escenario':'2. Actual'}
+            def DiarioNuevo():
+                new_row = {'Motivo':motivo_option2, 'Tipo':'Gasto', 'Monto':monto_ingreso2, 'Fecha':fecha, 'Escenario':'2. Actual'}
+                Diario = Diario.append(new_row, ignore_index=True)
+                return Diario
+            DiarioNuevo()
             st.success('This is a success message!!', icon="✅")
 
-
+Diario=DiarioNuevo()
+st.write("Saludos")
             
 
 with st.expander("Metricas y resultados"):
@@ -134,10 +133,6 @@ with st.expander("Metricas y resultados"):
 
     with tab1:
         st.dataframe(DiarioFinal1,use_container_width=True)
-        
-        quicena_option22=option()
-
-        st.write(quicena_option22)
 
     with tab2:
         st.write("Proximamente grafiquitos bonitos")
