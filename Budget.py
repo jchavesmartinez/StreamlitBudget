@@ -3,7 +3,7 @@ import time
 import pandas as pd
 import numpy as np
 import os
-from datetime import date
+from datetime import datetime, date, time, timedelta, timezone
 
 st.set_page_config(layout="wide")
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
@@ -15,8 +15,12 @@ path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/D
 Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
 
 hoy=date.today().strftime("%d-%b-%Y")
+mes=datetime.now().date().month
+
+
 
 st.write(hoy)
+st.write(mes)
 
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
