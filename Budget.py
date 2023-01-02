@@ -90,5 +90,14 @@ with st.expander("Metricas y resultados"):
   
 
 with st.expander("Saldos"):
-    st.write("Holi")
+    tab3, tab4, tab5= st.tabs(["Debito", "Credito", 'Tasas 0'])
+
+    with tab3:
+        st.write("Mostrar saldos cuentas debito")
+
+    with tab4:
+        st.write("Mostrar saldos cuentas credito")
+
+    with tab5:
+        st.write("Mostrar saldos cuentas tasas 0")
 
