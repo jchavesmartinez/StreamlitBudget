@@ -95,7 +95,7 @@ with st.expander("Gastos"):
             DiarioNuevo(Diario)
             st.success('This is a success message!!', icon="✅")
 
-Diario=DiarioNuevo(Diario)
+#Diario=DiarioNuevo(Diario)
 st.write("Saludos")
             
 
