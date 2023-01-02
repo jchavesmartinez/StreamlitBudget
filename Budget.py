@@ -92,9 +92,9 @@ with st.expander("Gastos"):
         if submitted2:
             #list_row = [motivo_option2, 'Gasto', monto_ingreso2, fecha,'2. Actual']
             new_row = {'Motivo':motivo_option2, 'Tipo':'Gasto', 'Monto':monto_ingreso2, 'Fecha':fecha, 'Escenario':'2. Actual'}
-            Diario = Diario.append(new_row, ignore_index=True)
+            Diario.add_rows(new_row)
             st.success('This is a success message!!', icon="✅")
-            st.dataframe(Diario,use_container_width=True)
+
 
             
 
