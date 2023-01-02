@@ -16,11 +16,40 @@ Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
 
 hoy=date.today().strftime("%d-%b-%Y")
 mes=datetime.now().date().month
+dia=datetime.now().date().day
+
 
 
 
 st.write(hoy)
 st.write(mes)
+st.write(dia)
+
+if mes==1:
+    mes=='Enero'
+elif mes==2:
+    mes=='Febrero'
+elif mes==3:
+    mes=='Marzo'
+elif mes==4:
+    mes=='Abril'
+elif mes==5:
+    mes=='Mayo'
+elif mes==6:
+    mes=='Junio'
+elif mes==7:
+    mes=='Julio'
+elif mes==8:
+    mes=='Agosto'
+elif mes==9:
+    mes=='Setiembre'
+elif mes==10:
+    mes=='Octubre'
+elif mes==11:
+    mes=='Noviembre'
+elif mes==12:
+    mes=='Diciembre'
+
 
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
