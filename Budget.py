@@ -63,17 +63,18 @@ with st.expander("Metricas y resultados"):
     elif quicena_option=='Ambas':
         DiarioFinal=Diario[Diario['Fecha'].str.contains(mes_option)]
     
+    DiarioFinalPresupuesto=DiarioFinal[DiarioFinal['Escenario']=='1. Presupuesto']
     
-    #DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
-    #DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
+    DiarioFinal1 = DiarioFinal.groupby(['Motivo','Escenario'])['Monto'].sum()
+    DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
-        st.dataframe(DiarioFinal,use_container_width=True)
+        st.dataframe(DiarioFinal2,use_container_width=True)
 
     with tab2:
-        st.dataframe(DiarioFinal,use_container_width=True)
+        st.dataframe(DiarioFinal1,use_container_width=True)
   
 
 with st.expander("Saldos"):
