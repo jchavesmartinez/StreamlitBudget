@@ -503,24 +503,507 @@ Internet,Gasto,0,Diciembre II ,Presupuesto
 Electricidad,Gasto,0,Diciembre II ,Presupuesto
 Comida afuera,Gasto,20000,Diciembre II ,Presupuesto
 Agua,Gasto,3000,Diciembre II ,Presupuesto
-Salario,Ingreso,-1203500,Enero I ,Actual
+Salario,Ingreso,0,Enero I ,Actual
 Ingresos Extra,Ingreso,0,Enero I ,Actual
-Hipoteca,Gasto,-273000,Enero I ,Actual
-Cuota Condominio,Gasto,-37500,Enero I ,Actual
-Tasa 0,Gasto,-60000,Enero I ,Actual
-Boletos,Gasto,-90000,Enero I ,Actual
+Hipoteca,Gasto,0,Enero I ,Actual
+Cuota Condominio,Gasto,0,Enero I ,Actual
+Tasa 0,Gasto,0,Enero I ,Actual
+Boletos,Gasto,0,Enero I ,Actual
 Celular,Gasto,0,Enero I ,Actual
-Regalos,Gasto,-60000,Enero I ,Actual
-Ahorro,Gasto,-40000,Enero I ,Actual
-Entretenimiento,Gasto,-25000,Enero I ,Actual
-Tequila,Gasto,-34000,Enero I ,Actual
-Marchamo y seguros,Gasto,-60000,Enero I ,Actual
-Ropa,Gasto,-21000,Enero I ,Actual
-Gas,Gasto,-80000,Enero I ,Actual
-Comida,Gasto,-120000,Enero I ,Actual
-Viajes,Gasto,-57500,Enero I ,Actual
-Cuota Carro,Gasto,-12000,Enero I ,Actual
-Internet,Gasto,-28000,Enero I ,Actual
-Electricidad,Gasto,-52500,Enero I ,Actual
-Comida afuera,Gasto,-150000,Enero I ,Actual
-Agua,Gasto,-3000,Enero I ,Actual
+Regalos,Gasto,0,Enero I ,Actual
+Ahorro,Gasto,0,Enero I ,Actual
+Entretenimiento,Gasto,0,Enero I ,Actual
+Tequila,Gasto,0,Enero I ,Actual
+Marchamo y seguros,Gasto,0,Enero I ,Actual
+Ropa,Gasto,0,Enero I ,Actual
+Gas,Gasto,0,Enero I ,Actual
+Comida,Gasto,0,Enero I ,Actual
+Viajes,Gasto,0,Enero I ,Actual
+Cuota Carro,Gasto,0,Enero I ,Actual
+Internet,Gasto,0,Enero I ,Actual
+Electricidad,Gasto,0,Enero I ,Actual
+Comida afuera,Gasto,0,Enero I ,Actual
+Agua,Gasto,0,Enero I ,Actual
+Salario,Ingreso,0,Enero II ,Actual
+Ingresos Extra,Ingreso,0,Enero II ,Actual
+Hipoteca,Gasto,0,Enero II ,Actual
+Cuota Condominio,Gasto,0,Enero II ,Actual
+Tasa 0,Gasto,0,Enero II ,Actual
+Boletos,Gasto,0,Enero II ,Actual
+Celular,Gasto,0,Enero II ,Actual
+Regalos,Gasto,0,Enero II ,Actual
+Ahorro,Gasto,0,Enero II ,Actual
+Entretenimiento,Gasto,0,Enero II ,Actual
+Tequila,Gasto,0,Enero II ,Actual
+Marchamo y seguros,Gasto,0,Enero II ,Actual
+Ropa,Gasto,0,Enero II ,Actual
+Gas,Gasto,0,Enero II ,Actual
+Comida,Gasto,0,Enero II ,Actual
+Viajes,Gasto,0,Enero II ,Actual
+Cuota Carro,Gasto,0,Enero II ,Actual
+Internet,Gasto,0,Enero II ,Actual
+Electricidad,Gasto,0,Enero II ,Actual
+Comida afuera,Gasto,0,Enero II ,Actual
+Agua,Gasto,0,Enero II ,Actual
+Salario,Ingreso,0,Febrero I ,Actual
+Ingresos Extra,Ingreso,0,Febrero I ,Actual
+Hipoteca,Gasto,0,Febrero I ,Actual
+Cuota Condominio,Gasto,0,Febrero I ,Actual
+Tasa 0,Gasto,0,Febrero I ,Actual
+Boletos,Gasto,0,Febrero I ,Actual
+Celular,Gasto,0,Febrero I ,Actual
+Regalos,Gasto,0,Febrero I ,Actual
+Ahorro,Gasto,0,Febrero I ,Actual
+Entretenimiento,Gasto,0,Febrero I ,Actual
+Tequila,Gasto,0,Febrero I ,Actual
+Marchamo y seguros,Gasto,0,Febrero I ,Actual
+Ropa,Gasto,0,Febrero I ,Actual
+Gas,Gasto,0,Febrero I ,Actual
+Comida,Gasto,0,Febrero I ,Actual
+Viajes,Gasto,0,Febrero I ,Actual
+Cuota Carro,Gasto,0,Febrero I ,Actual
+Internet,Gasto,0,Febrero I ,Actual
+Electricidad,Gasto,0,Febrero I ,Actual
+Comida afuera,Gasto,0,Febrero I ,Actual
+Agua,Gasto,0,Febrero I ,Actual
+Salario,Ingreso,0,Febrero II ,Actual
+Ingresos Extra,Ingreso,0,Febrero II ,Actual
+Hipoteca,Gasto,0,Febrero II ,Actual
+Cuota Condominio,Gasto,0,Febrero II ,Actual
+Tasa 0,Gasto,0,Febrero II ,Actual
+Boletos,Gasto,0,Febrero II ,Actual
+Celular,Gasto,0,Febrero II ,Actual
+Regalos,Gasto,0,Febrero II ,Actual
+Ahorro,Gasto,0,Febrero II ,Actual
+Entretenimiento,Gasto,0,Febrero II ,Actual
+Tequila,Gasto,0,Febrero II ,Actual
+Marchamo y seguros,Gasto,0,Febrero II ,Actual
+Ropa,Gasto,0,Febrero II ,Actual
+Gas,Gasto,0,Febrero II ,Actual
+Comida,Gasto,0,Febrero II ,Actual
+Viajes,Gasto,0,Febrero II ,Actual
+Cuota Carro,Gasto,0,Febrero II ,Actual
+Internet,Gasto,0,Febrero II ,Actual
+Electricidad,Gasto,0,Febrero II ,Actual
+Comida afuera,Gasto,0,Febrero II ,Actual
+Agua,Gasto,0,Febrero II ,Actual
+Salario,Ingreso,0,Marzo I ,Actual
+Ingresos Extra,Ingreso,0,Marzo I ,Actual
+Hipoteca,Gasto,0,Marzo I ,Actual
+Cuota Condominio,Gasto,0,Marzo I ,Actual
+Tasa 0,Gasto,0,Marzo I ,Actual
+Boletos,Gasto,0,Marzo I ,Actual
+Celular,Gasto,0,Marzo I ,Actual
+Regalos,Gasto,0,Marzo I ,Actual
+Ahorro,Gasto,0,Marzo I ,Actual
+Entretenimiento,Gasto,0,Marzo I ,Actual
+Tequila,Gasto,0,Marzo I ,Actual
+Marchamo y seguros,Gasto,0,Marzo I ,Actual
+Ropa,Gasto,0,Marzo I ,Actual
+Gas,Gasto,0,Marzo I ,Actual
+Comida,Gasto,0,Marzo I ,Actual
+Viajes,Gasto,0,Marzo I ,Actual
+Cuota Carro,Gasto,0,Marzo I ,Actual
+Internet,Gasto,0,Marzo I ,Actual
+Electricidad,Gasto,0,Marzo I ,Actual
+Comida afuera,Gasto,0,Marzo I ,Actual
+Agua,Gasto,0,Marzo I ,Actual
+Salario,Ingreso,0,Marzo II ,Actual
+Ingresos Extra,Ingreso,0,Marzo II ,Actual
+Hipoteca,Gasto,0,Marzo II ,Actual
+Cuota Condominio,Gasto,0,Marzo II ,Actual
+Tasa 0,Gasto,0,Marzo II ,Actual
+Boletos,Gasto,0,Marzo II ,Actual
+Celular,Gasto,0,Marzo II ,Actual
+Regalos,Gasto,0,Marzo II ,Actual
+Ahorro,Gasto,0,Marzo II ,Actual
+Entretenimiento,Gasto,0,Marzo II ,Actual
+Tequila,Gasto,0,Marzo II ,Actual
+Marchamo y seguros,Gasto,0,Marzo II ,Actual
+Ropa,Gasto,0,Marzo II ,Actual
+Gas,Gasto,0,Marzo II ,Actual
+Comida,Gasto,0,Marzo II ,Actual
+Viajes,Gasto,0,Marzo II ,Actual
+Cuota Carro,Gasto,0,Marzo II ,Actual
+Internet,Gasto,0,Marzo II ,Actual
+Electricidad,Gasto,0,Marzo II ,Actual
+Comida afuera,Gasto,0,Marzo II ,Actual
+Agua,Gasto,0,Marzo II ,Actual
+Salario,Ingreso,0,Abril I ,Actual
+Ingresos Extra,Ingreso,0,Abril I ,Actual
+Hipoteca,Gasto,0,Abril I ,Actual
+Cuota Condominio,Gasto,0,Abril I ,Actual
+Tasa 0,Gasto,0,Abril I ,Actual
+Boletos,Gasto,0,Abril I ,Actual
+Celular,Gasto,0,Abril I ,Actual
+Regalos,Gasto,0,Abril I ,Actual
+Ahorro,Gasto,0,Abril I ,Actual
+Entretenimiento,Gasto,0,Abril I ,Actual
+Tequila,Gasto,0,Abril I ,Actual
+Marchamo y seguros,Gasto,0,Abril I ,Actual
+Ropa,Gasto,0,Abril I ,Actual
+Gas,Gasto,0,Abril I ,Actual
+Comida,Gasto,0,Abril I ,Actual
+Viajes,Gasto,0,Abril I ,Actual
+Cuota Carro,Gasto,0,Abril I ,Actual
+Internet,Gasto,0,Abril I ,Actual
+Electricidad,Gasto,0,Abril I ,Actual
+Comida afuera,Gasto,0,Abril I ,Actual
+Agua,Gasto,0,Abril I ,Actual
+Salario,Ingreso,0,Abril II ,Actual
+Ingresos Extra,Ingreso,0,Abril II ,Actual
+Hipoteca,Gasto,0,Abril II ,Actual
+Cuota Condominio,Gasto,0,Abril II ,Actual
+Tasa 0,Gasto,0,Abril II ,Actual
+Boletos,Gasto,0,Abril II ,Actual
+Celular,Gasto,0,Abril II ,Actual
+Regalos,Gasto,0,Abril II ,Actual
+Ahorro,Gasto,0,Abril II ,Actual
+Entretenimiento,Gasto,0,Abril II ,Actual
+Tequila,Gasto,0,Abril II ,Actual
+Marchamo y seguros,Gasto,0,Abril II ,Actual
+Ropa,Gasto,0,Abril II ,Actual
+Gas,Gasto,0,Abril II ,Actual
+Comida,Gasto,0,Abril II ,Actual
+Viajes,Gasto,0,Abril II ,Actual
+Cuota Carro,Gasto,0,Abril II ,Actual
+Internet,Gasto,0,Abril II ,Actual
+Electricidad,Gasto,0,Abril II ,Actual
+Comida afuera,Gasto,0,Abril II ,Actual
+Agua,Gasto,0,Abril II ,Actual
+Salario,Ingreso,0,Mayo I ,Actual
+Ingresos Extra,Ingreso,0,Mayo I ,Actual
+Hipoteca,Gasto,0,Mayo I ,Actual
+Cuota Condominio,Gasto,0,Mayo I ,Actual
+Tasa 0,Gasto,0,Mayo I ,Actual
+Boletos,Gasto,0,Mayo I ,Actual
+Celular,Gasto,0,Mayo I ,Actual
+Regalos,Gasto,0,Mayo I ,Actual
+Ahorro,Gasto,0,Mayo I ,Actual
+Entretenimiento,Gasto,0,Mayo I ,Actual
+Tequila,Gasto,0,Mayo I ,Actual
+Marchamo y seguros,Gasto,0,Mayo I ,Actual
+Ropa,Gasto,0,Mayo I ,Actual
+Gas,Gasto,0,Mayo I ,Actual
+Comida,Gasto,0,Mayo I ,Actual
+Viajes,Gasto,0,Mayo I ,Actual
+Cuota Carro,Gasto,0,Mayo I ,Actual
+Internet,Gasto,0,Mayo I ,Actual
+Electricidad,Gasto,0,Mayo I ,Actual
+Comida afuera,Gasto,0,Mayo I ,Actual
+Agua,Gasto,0,Mayo I ,Actual
+Salario,Ingreso,0,Mayo II ,Actual
+Ingresos Extra,Ingreso,0,Mayo II ,Actual
+Hipoteca,Gasto,0,Mayo II ,Actual
+Cuota Condominio,Gasto,0,Mayo II ,Actual
+Tasa 0,Gasto,0,Mayo II ,Actual
+Boletos,Gasto,0,Mayo II ,Actual
+Celular,Gasto,0,Mayo II ,Actual
+Regalos,Gasto,0,Mayo II ,Actual
+Ahorro,Gasto,0,Mayo II ,Actual
+Entretenimiento,Gasto,0,Mayo II ,Actual
+Tequila,Gasto,0,Mayo II ,Actual
+Marchamo y seguros,Gasto,0,Mayo II ,Actual
+Ropa,Gasto,0,Mayo II ,Actual
+Gas,Gasto,0,Mayo II ,Actual
+Comida,Gasto,0,Mayo II ,Actual
+Viajes,Gasto,0,Mayo II ,Actual
+Cuota Carro,Gasto,0,Mayo II ,Actual
+Internet,Gasto,0,Mayo II ,Actual
+Electricidad,Gasto,0,Mayo II ,Actual
+Comida afuera,Gasto,0,Mayo II ,Actual
+Agua,Gasto,0,Mayo II ,Actual
+Salario,Ingreso,0,Junio I ,Actual
+Ingresos Extra,Ingreso,0,Junio I ,Actual
+Hipoteca,Gasto,0,Junio I ,Actual
+Cuota Condominio,Gasto,0,Junio I ,Actual
+Tasa 0,Gasto,0,Junio I ,Actual
+Boletos,Gasto,0,Junio I ,Actual
+Celular,Gasto,0,Junio I ,Actual
+Regalos,Gasto,0,Junio I ,Actual
+Ahorro,Gasto,0,Junio I ,Actual
+Entretenimiento,Gasto,0,Junio I ,Actual
+Tequila,Gasto,0,Junio I ,Actual
+Marchamo y seguros,Gasto,0,Junio I ,Actual
+Ropa,Gasto,0,Junio I ,Actual
+Gas,Gasto,0,Junio I ,Actual
+Comida,Gasto,0,Junio I ,Actual
+Viajes,Gasto,0,Junio I ,Actual
+Cuota Carro,Gasto,0,Junio I ,Actual
+Internet,Gasto,0,Junio I ,Actual
+Electricidad,Gasto,0,Junio I ,Actual
+Comida afuera,Gasto,0,Junio I ,Actual
+Agua,Gasto,0,Junio I ,Actual
+Salario,Ingreso,0,Junio II ,Actual
+Ingresos Extra,Ingreso,0,Junio II ,Actual
+Hipoteca,Gasto,0,Junio II ,Actual
+Cuota Condominio,Gasto,0,Junio II ,Actual
+Tasa 0,Gasto,0,Junio II ,Actual
+Boletos,Gasto,0,Junio II ,Actual
+Celular,Gasto,0,Junio II ,Actual
+Regalos,Gasto,0,Junio II ,Actual
+Ahorro,Gasto,0,Junio II ,Actual
+Entretenimiento,Gasto,0,Junio II ,Actual
+Tequila,Gasto,0,Junio II ,Actual
+Marchamo y seguros,Gasto,0,Junio II ,Actual
+Ropa,Gasto,0,Junio II ,Actual
+Gas,Gasto,0,Junio II ,Actual
+Comida,Gasto,0,Junio II ,Actual
+Viajes,Gasto,0,Junio II ,Actual
+Cuota Carro,Gasto,0,Junio II ,Actual
+Internet,Gasto,0,Junio II ,Actual
+Electricidad,Gasto,0,Junio II ,Actual
+Comida afuera,Gasto,0,Junio II ,Actual
+Agua,Gasto,0,Junio II ,Actual
+Salario,Ingreso,0,Julio I ,Actual
+Ingresos Extra,Ingreso,0,Julio I ,Actual
+Hipoteca,Gasto,0,Julio I ,Actual
+Cuota Condominio,Gasto,0,Julio I ,Actual
+Tasa 0,Gasto,0,Julio I ,Actual
+Boletos,Gasto,0,Julio I ,Actual
+Celular,Gasto,0,Julio I ,Actual
+Regalos,Gasto,0,Julio I ,Actual
+Ahorro,Gasto,0,Julio I ,Actual
+Entretenimiento,Gasto,0,Julio I ,Actual
+Tequila,Gasto,0,Julio I ,Actual
+Marchamo y seguros,Gasto,0,Julio I ,Actual
+Ropa,Gasto,0,Julio I ,Actual
+Gas,Gasto,0,Julio I ,Actual
+Comida,Gasto,0,Julio I ,Actual
+Viajes,Gasto,0,Julio I ,Actual
+Cuota Carro,Gasto,0,Julio I ,Actual
+Internet,Gasto,0,Julio I ,Actual
+Electricidad,Gasto,0,Julio I ,Actual
+Comida afuera,Gasto,0,Julio I ,Actual
+Agua,Gasto,0,Julio I ,Actual
+Salario,Ingreso,0,Julio II ,Actual
+Ingresos Extra,Ingreso,0,Julio II ,Actual
+Hipoteca,Gasto,0,Julio II ,Actual
+Cuota Condominio,Gasto,0,Julio II ,Actual
+Tasa 0,Gasto,0,Julio II ,Actual
+Boletos,Gasto,0,Julio II ,Actual
+Celular,Gasto,0,Julio II ,Actual
+Regalos,Gasto,0,Julio II ,Actual
+Ahorro,Gasto,0,Julio II ,Actual
+Entretenimiento,Gasto,0,Julio II ,Actual
+Tequila,Gasto,0,Julio II ,Actual
+Marchamo y seguros,Gasto,0,Julio II ,Actual
+Ropa,Gasto,0,Julio II ,Actual
+Gas,Gasto,0,Julio II ,Actual
+Comida,Gasto,0,Julio II ,Actual
+Viajes,Gasto,0,Julio II ,Actual
+Cuota Carro,Gasto,0,Julio II ,Actual
+Internet,Gasto,0,Julio II ,Actual
+Electricidad,Gasto,0,Julio II ,Actual
+Comida afuera,Gasto,0,Julio II ,Actual
+Agua,Gasto,0,Julio II ,Actual
+Salario,Ingreso,0,Agosto I ,Actual
+Ingresos Extra,Ingreso,0,Agosto I ,Actual
+Hipoteca,Gasto,0,Agosto I ,Actual
+Cuota Condominio,Gasto,0,Agosto I ,Actual
+Tasa 0,Gasto,0,Agosto I ,Actual
+Boletos,Gasto,0,Agosto I ,Actual
+Celular,Gasto,0,Agosto I ,Actual
+Regalos,Gasto,0,Agosto I ,Actual
+Ahorro,Gasto,0,Agosto I ,Actual
+Entretenimiento,Gasto,0,Agosto I ,Actual
+Tequila,Gasto,0,Agosto I ,Actual
+Marchamo y seguros,Gasto,0,Agosto I ,Actual
+Ropa,Gasto,0,Agosto I ,Actual
+Gas,Gasto,0,Agosto I ,Actual
+Comida,Gasto,0,Agosto I ,Actual
+Viajes,Gasto,0,Agosto I ,Actual
+Cuota Carro,Gasto,0,Agosto I ,Actual
+Internet,Gasto,0,Agosto I ,Actual
+Electricidad,Gasto,0,Agosto I ,Actual
+Comida afuera,Gasto,0,Agosto I ,Actual
+Agua,Gasto,0,Agosto I ,Actual
+Salario,Ingreso,0,Agosto II ,Actual
+Ingresos Extra,Ingreso,0,Agosto II ,Actual
+Hipoteca,Gasto,0,Agosto II ,Actual
+Cuota Condominio,Gasto,0,Agosto II ,Actual
+Tasa 0,Gasto,0,Agosto II ,Actual
+Boletos,Gasto,0,Agosto II ,Actual
+Celular,Gasto,0,Agosto II ,Actual
+Regalos,Gasto,0,Agosto II ,Actual
+Ahorro,Gasto,0,Agosto II ,Actual
+Entretenimiento,Gasto,0,Agosto II ,Actual
+Tequila,Gasto,0,Agosto II ,Actual
+Marchamo y seguros,Gasto,0,Agosto II ,Actual
+Ropa,Gasto,0,Agosto II ,Actual
+Gas,Gasto,0,Agosto II ,Actual
+Comida,Gasto,0,Agosto II ,Actual
+Viajes,Gasto,0,Agosto II ,Actual
+Cuota Carro,Gasto,0,Agosto II ,Actual
+Internet,Gasto,0,Agosto II ,Actual
+Electricidad,Gasto,0,Agosto II ,Actual
+Comida afuera,Gasto,0,Agosto II ,Actual
+Agua,Gasto,0,Agosto II ,Actual
+Salario,Ingreso,0,Septiembre I ,Actual
+Ingresos Extra,Ingreso,0,Septiembre I ,Actual
+Hipoteca,Gasto,0,Septiembre I ,Actual
+Cuota Condominio,Gasto,0,Septiembre I ,Actual
+Tasa 0,Gasto,0,Septiembre I ,Actual
+Boletos,Gasto,0,Septiembre I ,Actual
+Celular,Gasto,0,Septiembre I ,Actual
+Regalos,Gasto,0,Septiembre I ,Actual
+Ahorro,Gasto,0,Septiembre I ,Actual
+Entretenimiento,Gasto,0,Septiembre I ,Actual
+Tequila,Gasto,0,Septiembre I ,Actual
+Marchamo y seguros,Gasto,0,Septiembre I ,Actual
+Ropa,Gasto,0,Septiembre I ,Actual
+Gas,Gasto,0,Septiembre I ,Actual
+Comida,Gasto,0,Septiembre I ,Actual
+Viajes,Gasto,0,Septiembre I ,Actual
+Cuota Carro,Gasto,0,Septiembre I ,Actual
+Internet,Gasto,0,Septiembre I ,Actual
+Electricidad,Gasto,0,Septiembre I ,Actual
+Comida afuera,Gasto,0,Septiembre I ,Actual
+Agua,Gasto,0,Septiembre I ,Actual
+Salario,Ingreso,0,Septiembre II ,Actual
+Ingresos Extra,Ingreso,0,Septiembre II ,Actual
+Hipoteca,Gasto,0,Septiembre II ,Actual
+Cuota Condominio,Gasto,0,Septiembre II ,Actual
+Tasa 0,Gasto,0,Septiembre II ,Actual
+Boletos,Gasto,0,Septiembre II ,Actual
+Celular,Gasto,0,Septiembre II ,Actual
+Regalos,Gasto,0,Septiembre II ,Actual
+Ahorro,Gasto,0,Septiembre II ,Actual
+Entretenimiento,Gasto,0,Septiembre II ,Actual
+Tequila,Gasto,0,Septiembre II ,Actual
+Marchamo y seguros,Gasto,0,Septiembre II ,Actual
+Ropa,Gasto,0,Septiembre II ,Actual
+Gas,Gasto,0,Septiembre II ,Actual
+Comida,Gasto,0,Septiembre II ,Actual
+Viajes,Gasto,0,Septiembre II ,Actual
+Cuota Carro,Gasto,0,Septiembre II ,Actual
+Internet,Gasto,0,Septiembre II ,Actual
+Electricidad,Gasto,0,Septiembre II ,Actual
+Comida afuera,Gasto,0,Septiembre II ,Actual
+Agua,Gasto,0,Septiembre II ,Actual
+Salario,Ingreso,0,Octubre I ,Actual
+Ingresos Extra,Ingreso,0,Octubre I ,Actual
+Hipoteca,Gasto,0,Octubre I ,Actual
+Cuota Condominio,Gasto,0,Octubre I ,Actual
+Tasa 0,Gasto,0,Octubre I ,Actual
+Boletos,Gasto,0,Octubre I ,Actual
+Celular,Gasto,0,Octubre I ,Actual
+Regalos,Gasto,0,Octubre I ,Actual
+Ahorro,Gasto,0,Octubre I ,Actual
+Entretenimiento,Gasto,0,Octubre I ,Actual
+Tequila,Gasto,0,Octubre I ,Actual
+Marchamo y seguros,Gasto,0,Octubre I ,Actual
+Ropa,Gasto,0,Octubre I ,Actual
+Gas,Gasto,0,Octubre I ,Actual
+Comida,Gasto,0,Octubre I ,Actual
+Viajes,Gasto,0,Octubre I ,Actual
+Cuota Carro,Gasto,0,Octubre I ,Actual
+Internet,Gasto,0,Octubre I ,Actual
+Electricidad,Gasto,0,Octubre I ,Actual
+Comida afuera,Gasto,0,Octubre I ,Actual
+Agua,Gasto,0,Octubre I ,Actual
+Salario,Ingreso,0,Octubre II ,Actual
+Ingresos Extra,Ingreso,0,Octubre II ,Actual
+Hipoteca,Gasto,0,Octubre II ,Actual
+Cuota Condominio,Gasto,0,Octubre II ,Actual
+Tasa 0,Gasto,0,Octubre II ,Actual
+Boletos,Gasto,0,Octubre II ,Actual
+Celular,Gasto,0,Octubre II ,Actual
+Regalos,Gasto,0,Octubre II ,Actual
+Ahorro,Gasto,0,Octubre II ,Actual
+Entretenimiento,Gasto,0,Octubre II ,Actual
+Tequila,Gasto,0,Octubre II ,Actual
+Marchamo y seguros,Gasto,0,Octubre II ,Actual
+Ropa,Gasto,0,Octubre II ,Actual
+Gas,Gasto,0,Octubre II ,Actual
+Comida,Gasto,0,Octubre II ,Actual
+Viajes,Gasto,0,Octubre II ,Actual
+Cuota Carro,Gasto,0,Octubre II ,Actual
+Internet,Gasto,0,Octubre II ,Actual
+Electricidad,Gasto,0,Octubre II ,Actual
+Comida afuera,Gasto,0,Octubre II ,Actual
+Agua,Gasto,0,Octubre II ,Actual
+Salario,Ingreso,0,Noviembre I ,Actual
+Ingresos Extra,Ingreso,0,Noviembre I ,Actual
+Hipoteca,Gasto,0,Noviembre I ,Actual
+Cuota Condominio,Gasto,0,Noviembre I ,Actual
+Tasa 0,Gasto,0,Noviembre I ,Actual
+Boletos,Gasto,0,Noviembre I ,Actual
+Celular,Gasto,0,Noviembre I ,Actual
+Regalos,Gasto,0,Noviembre I ,Actual
+Ahorro,Gasto,0,Noviembre I ,Actual
+Entretenimiento,Gasto,0,Noviembre I ,Actual
+Tequila,Gasto,0,Noviembre I ,Actual
+Marchamo y seguros,Gasto,0,Noviembre I ,Actual
+Ropa,Gasto,0,Noviembre I ,Actual
+Gas,Gasto,0,Noviembre I ,Actual
+Comida,Gasto,0,Noviembre I ,Actual
+Viajes,Gasto,0,Noviembre I ,Actual
+Cuota Carro,Gasto,0,Noviembre I ,Actual
+Internet,Gasto,0,Noviembre I ,Actual
+Electricidad,Gasto,0,Noviembre I ,Actual
+Comida afuera,Gasto,0,Noviembre I ,Actual
+Agua,Gasto,0,Noviembre I ,Actual
+Salario,Ingreso,0,Noviembre II ,Actual
+Ingresos Extra,Ingreso,0,Noviembre II ,Actual
+Hipoteca,Gasto,0,Noviembre II ,Actual
+Cuota Condominio,Gasto,0,Noviembre II ,Actual
+Tasa 0,Gasto,0,Noviembre II ,Actual
+Boletos,Gasto,0,Noviembre II ,Actual
+Celular,Gasto,0,Noviembre II ,Actual
+Regalos,Gasto,0,Noviembre II ,Actual
+Ahorro,Gasto,0,Noviembre II ,Actual
+Entretenimiento,Gasto,0,Noviembre II ,Actual
+Tequila,Gasto,0,Noviembre II ,Actual
+Marchamo y seguros,Gasto,0,Noviembre II ,Actual
+Ropa,Gasto,0,Noviembre II ,Actual
+Gas,Gasto,0,Noviembre II ,Actual
+Comida,Gasto,0,Noviembre II ,Actual
+Viajes,Gasto,0,Noviembre II ,Actual
+Cuota Carro,Gasto,0,Noviembre II ,Actual
+Internet,Gasto,0,Noviembre II ,Actual
+Electricidad,Gasto,0,Noviembre II ,Actual
+Comida afuera,Gasto,0,Noviembre II ,Actual
+Agua,Gasto,0,Noviembre II ,Actual
+Salario,Ingreso,0,Diciembre I ,Actual
+Ingresos Extra,Ingreso,0,Diciembre I ,Actual
+Hipoteca,Gasto,0,Diciembre I ,Actual
+Cuota Condominio,Gasto,0,Diciembre I ,Actual
+Tasa 0,Gasto,0,Diciembre I ,Actual
+Boletos,Gasto,0,Diciembre I ,Actual
+Celular,Gasto,0,Diciembre I ,Actual
+Regalos,Gasto,0,Diciembre I ,Actual
+Ahorro,Gasto,0,Diciembre I ,Actual
+Entretenimiento,Gasto,0,Diciembre I ,Actual
+Tequila,Gasto,0,Diciembre I ,Actual
+Marchamo y seguros,Gasto,0,Diciembre I ,Actual
+Ropa,Gasto,0,Diciembre I ,Actual
+Gas,Gasto,0,Diciembre I ,Actual
+Comida,Gasto,0,Diciembre I ,Actual
+Viajes,Gasto,0,Diciembre I ,Actual
+Cuota Carro,Gasto,0,Diciembre I ,Actual
+Internet,Gasto,0,Diciembre I ,Actual
+Electricidad,Gasto,0,Diciembre I ,Actual
+Comida afuera,Gasto,0,Diciembre I ,Actual
+Agua,Gasto,0,Diciembre I ,Actual
+Salario,Ingreso,0,Diciembre II ,Actual
+Ingresos Extra,Ingreso,0,Diciembre II ,Actual
+Hipoteca,Gasto,0,Diciembre II ,Actual
+Cuota Condominio,Gasto,0,Diciembre II ,Actual
+Tasa 0,Gasto,0,Diciembre II ,Actual
+Boletos,Gasto,0,Diciembre II ,Actual
+Celular,Gasto,0,Diciembre II ,Actual
+Regalos,Gasto,0,Diciembre II ,Actual
+Ahorro,Gasto,0,Diciembre II ,Actual
+Entretenimiento,Gasto,0,Diciembre II ,Actual
+Tequila,Gasto,0,Diciembre II ,Actual
+Marchamo y seguros,Gasto,0,Diciembre II ,Actual
+Ropa,Gasto,0,Diciembre II ,Actual
+Gas,Gasto,0,Diciembre II ,Actual
+Comida,Gasto,0,Diciembre II ,Actual
+Viajes,Gasto,0,Diciembre II ,Actual
+Cuota Carro,Gasto,0,Diciembre II ,Actual
+Internet,Gasto,0,Diciembre II ,Actual
+Electricidad,Gasto,0,Diciembre II ,Actual
+Comida afuera,Gasto,0,Diciembre II ,Actual
+Agua,Gasto,0,Diciembre II ,Actual
