@@ -19,7 +19,10 @@ with st.expander("Ingresos"):
 
     if st.checkbox("Registrar ingreso"):
         with st.form("my_form"):
-            st.write("Inside the form")
+            option = st.selectbox(
+            'How would you like to be contacted?',
+            ('Email', 'Home phone', 'Mobile phone'))
+
             slider_val = st.slider("Form slider")
             checkbox_val = st.checkbox("Form checkbox")
 
