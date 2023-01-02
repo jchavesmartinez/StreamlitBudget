@@ -88,17 +88,15 @@ with st.expander("Gastos"):
         
         if submitted2:
             #list_row = [motivo_option2, 'Gasto', monto_ingreso2, fecha,'2. Actual']
-            def DiarioNuevo(Diario):
-                new_row = {'Motivo':motivo_option2, 'Tipo':'Gasto', 'Monto':monto_ingreso2, 'Fecha':fecha, 'Escenario':'2. Actual'}
-                Diario = Diario.append(new_row, ignore_index=True)
-                return Diario
-            DiarioNuevo(Diario)
+            new_row = {'Motivo':motivo_option2, 'Tipo':'Gasto', 'Monto':monto_ingreso2, 'Fecha':fecha, 'Escenario':'2. Actual'}
+            Diario = Diario.append(new_row, ignore_index=True)
             st.success('This is a success message!!', icon="✅")
 
 #Diario=DiarioNuevo(Diario)
 st.write("Saludos")
 
 my_table = st.table(Diario)
+my_table.add_rows(new_row)
             
 
 with st.expander("Metricas y resultados"):
