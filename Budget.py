@@ -91,6 +91,7 @@ with st.expander("Gastos"):
             new_row = {'Motivo':motivo_option2, 'Tipo':'Gasto', 'Monto':monto_ingreso2, 'Fecha':fecha, 'Escenario':'2. Actual'}
             Diario = Diario.append(new_row, ignore_index=True)
             st.success('This is a success message!!', icon="✅")
+            st.experimental_rerun()
 
 
 with st.expander("Metricas y resultados"):
