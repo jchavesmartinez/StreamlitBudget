@@ -56,7 +56,7 @@ with st.expander("Metricas y resultados"):
     elif quicena_option=='Segunda quincena':
         fechafiltrar= mes_option + ' II'
     
-    DiarioFinal=Diario[Diario['Fecha'].str.contains(fechafiltrar)]
+    DiarioFinal=Diario[Diario['Fecha'].str.isin(fechafiltrar)]
     DiarioFinal = DiarioFinal.groupby(['Fecha','Motivo'])['Monto'].sum()
 
 
