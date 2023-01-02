@@ -73,6 +73,10 @@ with st.expander("Metricas y resultados"):
     DiarioFinal1 = pd.merge(DiarioFinal1, DiarioFinalActual, on=["Motivo"])
     DiarioFinal1=DiarioFinal1.rename(columns={"Monto_x": "Saldo Disponible", "Monto_y": "Saldo Presupuestado", "Monto": "Saldo Consumido"}, errors="raise")
 
+    temp_cols=DiarioFinal1.columns.tolist()
+    new_cols=temp_cols[1:] + temp_cols[0:1]
+    DiarioFinal1=DiarioFinal1[new_cols]
+
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
