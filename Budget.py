@@ -77,8 +77,7 @@ with st.expander("Ingresos"):
 with st.expander("Gastos"):
     
     if st.checkbox("Registrar gasto"):
-        
-        st.dataframe(Diario,use_container_width=True)
+
         
         with st.form("my_form2"):
             motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boltos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comidas afuera','Agua'))
