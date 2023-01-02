@@ -14,7 +14,8 @@ with st.container():
         st.dataframe(Budget2023,use_container_width=True)
         
     with st.expander("Ingresos"):
-        st.write("Holi")
+        number1 = st.number_input('Salario mensual neto Jose')
+        number2 = st.number_input('Salario mensual neto Aline')
     with st.expander("Gastos"):
         st.write("Holi")
     with st.expander("Metricas y resultados"):
