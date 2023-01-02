@@ -19,17 +19,14 @@ with st.expander("Ingresos"):
 
     if st.checkbox("Registrar ingreso"):
         with st.form("my_form"):
-            option = st.selectbox(
-            'How would you like to be contacted?',
-            ('Email', 'Home phone', 'Mobile phone'))
-
-            slider_val = st.slider("Form slider")
-            checkbox_val = st.checkbox("Form checkbox")
-
-            # Every form must have a submit button.
+            motivo_option = st.selectbox('Motivo',('Salario Jose', 'Salario Aline', 'Ingreso extra'))
+            monto_ingreso = st.number_input('Monto')
+            currency_option = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
+            
             submitted = st.form_submit_button("Submit")
+        
         if submitted:
-            st.write("slider", slider_val, "checkbox", checkbox_val)
+            st.write("slider")
 
 
 with st.expander("Gastos"):
