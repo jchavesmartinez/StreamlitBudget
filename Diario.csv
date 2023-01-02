@@ -1,526 +1,526 @@
-﻿Motivo,Tipo,Monto,Fecha,Escenario,,,,H,
-Salario,Ingreso,"1,203,500",Enero I ,Presupuesto,,,,s,
-Ingresos Extra,Ingreso,0,Enero I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Enero I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Enero I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Enero I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Enero I ,Presupuesto,,,,,
-Celular,Gasto,0,Enero I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Enero I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Enero I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Enero I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Enero I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Enero I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Enero I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Enero I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Enero I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Enero I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Enero I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Enero I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Enero I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Enero I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Enero I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Enero II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Enero II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Enero II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Enero II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Enero II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Enero II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Enero II ,Presupuesto,,,,,
-Regalos,Gasto,0,Enero II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Enero II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Enero II ,Presupuesto,,,,,
-Tequila,Gasto,0,Enero II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Enero II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Enero II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Enero II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Enero II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Enero II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Enero II ,Presupuesto,,,,,
-Internet,Gasto,0,Enero II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Enero II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Enero II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Enero II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Febrero I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Febrero I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Febrero I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Febrero I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Febrero I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Febrero I ,Presupuesto,,,,,
-Celular,Gasto,0,Febrero I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Febrero I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Febrero I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Febrero I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Febrero I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Febrero I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Febrero I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Febrero I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Febrero I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Febrero I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Febrero I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Febrero I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Febrero I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Febrero I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Febrero I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Febrero II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Febrero II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Febrero II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Febrero II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Febrero II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Febrero II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Febrero II ,Presupuesto,,,,,
-Regalos,Gasto,0,Febrero II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Febrero II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Febrero II ,Presupuesto,,,,,
-Tequila,Gasto,0,Febrero II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Febrero II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Febrero II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Febrero II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Febrero II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Febrero II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Febrero II ,Presupuesto,,,,,
-Internet,Gasto,0,Febrero II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Febrero II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Febrero II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Febrero II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Marzo I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Marzo I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Marzo I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Marzo I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Marzo I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Marzo I ,Presupuesto,,,,,
-Celular,Gasto,0,Marzo I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Marzo I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Marzo I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Marzo I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Marzo I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Marzo I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Marzo I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Marzo I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Marzo I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Marzo I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Marzo I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Marzo I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Marzo I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Marzo I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Marzo I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Marzo II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Marzo II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Marzo II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Marzo II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Marzo II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Marzo II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Marzo II ,Presupuesto,,,,,
-Regalos,Gasto,0,Marzo II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Marzo II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Marzo II ,Presupuesto,,,,,
-Tequila,Gasto,0,Marzo II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Marzo II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Marzo II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Marzo II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Marzo II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Marzo II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Marzo II ,Presupuesto,,,,,
-Internet,Gasto,0,Marzo II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Marzo II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Marzo II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Marzo II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Abril I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Abril I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Abril I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Abril I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Abril I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Abril I ,Presupuesto,,,,,
-Celular,Gasto,0,Abril I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Abril I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Abril I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Abril I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Abril I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Abril I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Abril I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Abril I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Abril I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Abril I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Abril I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Abril I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Abril I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Abril I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Abril I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Abril II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Abril II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Abril II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Abril II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Abril II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Abril II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Abril II ,Presupuesto,,,,,
-Regalos,Gasto,0,Abril II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Abril II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Abril II ,Presupuesto,,,,,
-Tequila,Gasto,0,Abril II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Abril II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Abril II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Abril II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Abril II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Abril II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Abril II ,Presupuesto,,,,,
-Internet,Gasto,0,Abril II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Abril II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Abril II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Abril II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Mayo I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Mayo I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Mayo I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Mayo I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Mayo I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Mayo I ,Presupuesto,,,,,
-Celular,Gasto,0,Mayo I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Mayo I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Mayo I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Mayo I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Mayo I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Mayo I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Mayo I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Mayo I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Mayo I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Mayo I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Mayo I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Mayo I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Mayo I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Mayo I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Mayo I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Mayo II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Mayo II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Mayo II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Mayo II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Mayo II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Mayo II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Mayo II ,Presupuesto,,,,,
-Regalos,Gasto,0,Mayo II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Mayo II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Mayo II ,Presupuesto,,,,,
-Tequila,Gasto,0,Mayo II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Mayo II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Mayo II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Mayo II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Mayo II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Mayo II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Mayo II ,Presupuesto,,,,,
-Internet,Gasto,0,Mayo II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Mayo II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Mayo II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Mayo II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Junio I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Junio I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Junio I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Junio I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Junio I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Junio I ,Presupuesto,,,,,
-Celular,Gasto,0,Junio I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Junio I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Junio I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Junio I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Junio I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Junio I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Junio I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Junio I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Junio I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Junio I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Junio I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Junio I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Junio I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Junio I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Junio I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Junio II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Junio II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Junio II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Junio II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Junio II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Junio II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Junio II ,Presupuesto,,,,,
-Regalos,Gasto,0,Junio II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Junio II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Junio II ,Presupuesto,,,,,
-Tequila,Gasto,0,Junio II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Junio II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Junio II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Junio II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Junio II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Junio II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Junio II ,Presupuesto,,,,,
-Internet,Gasto,0,Junio II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Junio II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Junio II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Junio II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Julio I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Julio I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Julio I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Julio I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Julio I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Julio I ,Presupuesto,,,,,
-Celular,Gasto,0,Julio I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Julio I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Julio I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Julio I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Julio I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Julio I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Julio I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Julio I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Julio I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Julio I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Julio I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Julio I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Julio I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Julio I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Julio I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Julio II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Julio II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Julio II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Julio II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Julio II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Julio II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Julio II ,Presupuesto,,,,,
-Regalos,Gasto,0,Julio II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Julio II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Julio II ,Presupuesto,,,,,
-Tequila,Gasto,0,Julio II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Julio II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Julio II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Julio II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Julio II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Julio II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Julio II ,Presupuesto,,,,,
-Internet,Gasto,0,Julio II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Julio II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Julio II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Julio II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Agosto I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Agosto I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Agosto I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Agosto I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Agosto I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Agosto I ,Presupuesto,,,,,
-Celular,Gasto,0,Agosto I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Agosto I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Agosto I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Agosto I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Agosto I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Agosto I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Agosto I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Agosto I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Agosto I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Agosto I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Agosto I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Agosto I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Agosto I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Agosto I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Agosto I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Agosto II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Agosto II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Agosto II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Agosto II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Agosto II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Agosto II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Agosto II ,Presupuesto,,,,,
-Regalos,Gasto,0,Agosto II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Agosto II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Agosto II ,Presupuesto,,,,,
-Tequila,Gasto,0,Agosto II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Agosto II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Agosto II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Agosto II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Agosto II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Agosto II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Agosto II ,Presupuesto,,,,,
-Internet,Gasto,0,Agosto II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Agosto II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Agosto II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Agosto II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Septiembre I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Septiembre I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Septiembre I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Septiembre I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Septiembre I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Septiembre I ,Presupuesto,,,,,
-Celular,Gasto,0,Septiembre I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Septiembre I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Septiembre I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Septiembre I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Septiembre I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Septiembre I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Septiembre I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Septiembre I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Septiembre I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Septiembre I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Septiembre I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Septiembre I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Septiembre I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Septiembre I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Septiembre I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Septiembre II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Septiembre II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Septiembre II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Septiembre II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Septiembre II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Septiembre II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Septiembre II ,Presupuesto,,,,,
-Regalos,Gasto,0,Septiembre II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Septiembre II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Septiembre II ,Presupuesto,,,,,
-Tequila,Gasto,0,Septiembre II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Septiembre II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Septiembre II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Septiembre II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Septiembre II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Septiembre II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Septiembre II ,Presupuesto,,,,,
-Internet,Gasto,0,Septiembre II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Septiembre II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Septiembre II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Septiembre II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Octubre I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Octubre I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Octubre I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Octubre I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Octubre I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Octubre I ,Presupuesto,,,,,
-Celular,Gasto,0,Octubre I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Octubre I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Octubre I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Octubre I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Octubre I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Octubre I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Octubre I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Octubre I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Octubre I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Octubre I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Octubre I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Octubre I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Octubre I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Octubre I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Octubre I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Octubre II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Octubre II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Octubre II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Octubre II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Octubre II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Octubre II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Octubre II ,Presupuesto,,,,,
-Regalos,Gasto,0,Octubre II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Octubre II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Octubre II ,Presupuesto,,,,,
-Tequila,Gasto,0,Octubre II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Octubre II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Octubre II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Octubre II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Octubre II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Octubre II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Octubre II ,Presupuesto,,,,,
-Internet,Gasto,0,Octubre II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Octubre II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Octubre II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Octubre II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Noviembre I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Noviembre I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Noviembre I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Noviembre I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Noviembre I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Noviembre I ,Presupuesto,,,,,
-Celular,Gasto,0,Noviembre I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Noviembre I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Noviembre I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Noviembre I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Noviembre I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Noviembre I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Noviembre I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Noviembre I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Noviembre I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Noviembre I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Noviembre I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Noviembre I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Noviembre I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Noviembre I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Noviembre I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Noviembre II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Noviembre II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Noviembre II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Noviembre II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Noviembre II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Noviembre II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Noviembre II ,Presupuesto,,,,,
-Regalos,Gasto,0,Noviembre II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Noviembre II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Noviembre II ,Presupuesto,,,,,
-Tequila,Gasto,0,Noviembre II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Noviembre II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Noviembre II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Noviembre II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Noviembre II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Noviembre II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Noviembre II ,Presupuesto,,,,,
-Internet,Gasto,0,Noviembre II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Noviembre II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Noviembre II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Noviembre II ,Presupuesto,,,,,
-Salario,Ingreso,"1,203,500",Diciembre I ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Diciembre I ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Diciembre I ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Diciembre I ,Presupuesto,,,,,
-Tasa 0,Gasto,"60,000",Diciembre I ,Presupuesto,,,,,
-Boletos,Gasto,"90,000",Diciembre I ,Presupuesto,,,,,
-Celular,Gasto,0,Diciembre I ,Presupuesto,,,,,
-Regalos,Gasto,"60,000",Diciembre I ,Presupuesto,,,,,
-Ahorro,Gasto,"40,000",Diciembre I ,Presupuesto,,,,,
-Entretenimiento,Gasto,"25,000",Diciembre I ,Presupuesto,,,,,
-Tequila,Gasto,"34,000",Diciembre I ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,"60,000",Diciembre I ,Presupuesto,,,,,
-Ropa,Gasto,"21,000",Diciembre I ,Presupuesto,,,,,
-Gas,Gasto,"80,000",Diciembre I ,Presupuesto,,,,,
-Comida,Gasto,"120,000",Diciembre I ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Diciembre I ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Diciembre I ,Presupuesto,,,,,
-Internet,Gasto,"28,000",Diciembre I ,Presupuesto,,,,,
-Electricidad,Gasto,"52,500",Diciembre I ,Presupuesto,,,,,
-Comida afuera,Gasto,"150,000",Diciembre I ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Diciembre I ,Presupuesto,,,,,
-Salario,Ingreso,"603,500",Diciembre II ,Presupuesto,,,,,
-Ingresos Extra,Ingreso,0,Diciembre II ,Presupuesto,,,,,
-Hipoteca,Gasto,"273,000",Diciembre II ,Presupuesto,,,,,
-Cuota Condominio,Gasto,"37,500",Diciembre II ,Presupuesto,,,,,
-Tasa 0,Gasto,"50,000",Diciembre II ,Presupuesto,,,,,
-Boletos,Gasto,"32,400",Diciembre II ,Presupuesto,,,,,
-Celular,Gasto,"19,100",Diciembre II ,Presupuesto,,,,,
-Regalos,Gasto,0,Diciembre II ,Presupuesto,,,,,
-Ahorro,Gasto,0,Diciembre II ,Presupuesto,,,,,
-Entretenimiento,Gasto,0,Diciembre II ,Presupuesto,,,,,
-Tequila,Gasto,0,Diciembre II ,Presupuesto,,,,,
-Marchamo y seguros,Gasto,0,Diciembre II ,Presupuesto,,,,,
-Ropa,Gasto,"49,000",Diciembre II ,Presupuesto,,,,,
-Gas,Gasto,"30,000",Diciembre II ,Presupuesto,,,,,
-Comida,Gasto,"20,000",Diciembre II ,Presupuesto,,,,,
-Viajes,Gasto,"57,500",Diciembre II ,Presupuesto,,,,,
-Cuota Carro,Gasto,"12,000",Diciembre II ,Presupuesto,,,,,
-Internet,Gasto,0,Diciembre II ,Presupuesto,,,,,
-Electricidad,Gasto,0,Diciembre II ,Presupuesto,,,,,
-Comida afuera,Gasto,"20,000",Diciembre II ,Presupuesto,,,,,
-Agua,Gasto,"3,000",Diciembre II ,Presupuesto,,,,,
-Salario,Ingreso,"-1,203,500",Enero I ,Actual,,,,,
-Ingresos Extra,Ingreso,0,Enero I ,Actual,,,,,
-Hipoteca,Gasto,"-273,000",Enero I ,Actual,,,,,
-Cuota Condominio,Gasto,"-37,500",Enero I ,Actual,,,,,
-Tasa 0,Gasto,"-60,000",Enero I ,Actual,,,,,
-Boletos,Gasto,"-90,000",Enero I ,Actual,,,,,
-Celular,Gasto,0,Enero I ,Actual,,,,,
-Regalos,Gasto,"-60,000",Enero I ,Actual,,,,,
-Ahorro,Gasto,"-40,000",Enero I ,Actual,,,,,
-Entretenimiento,Gasto,"-25,000",Enero I ,Actual,,,,,
-Tequila,Gasto,"-34,000",Enero I ,Actual,,,,,
-Marchamo y seguros,Gasto,"-60,000",Enero I ,Actual,,,,,
-Ropa,Gasto,"-21,000",Enero I ,Actual,,,,,
-Gas,Gasto,"-80,000",Enero I ,Actual,,,,,
-Comida,Gasto,"-120,000",Enero I ,Actual,,,,,
-Viajes,Gasto,"-57,500",Enero I ,Actual,,,,,
-Cuota Carro,Gasto,"-12,000",Enero I ,Actual,,,,,
-Internet,Gasto,"-28,000",Enero I ,Actual,,,,,
-Electricidad,Gasto,"-52,500",Enero I ,Actual,,,,,
-Comida afuera,Gasto,"-150,000",Enero I ,Actual,,,,,
-Agua,Gasto,"-3,000",Enero I ,Actual,,,,,
+﻿Motivo,Tipo,Monto,Fecha,Escenario
+Salario,Ingreso,"1,203,500",Enero I ,Presupuesto
+Ingresos Extra,Ingreso,0,Enero I ,Presupuesto
+Hipoteca,Gasto,"273,000",Enero I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Enero I ,Presupuesto
+Tasa 0,Gasto,"60,000",Enero I ,Presupuesto
+Boletos,Gasto,"90,000",Enero I ,Presupuesto
+Celular,Gasto,0,Enero I ,Presupuesto
+Regalos,Gasto,"60,000",Enero I ,Presupuesto
+Ahorro,Gasto,"40,000",Enero I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Enero I ,Presupuesto
+Tequila,Gasto,"34,000",Enero I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Enero I ,Presupuesto
+Ropa,Gasto,"21,000",Enero I ,Presupuesto
+Gas,Gasto,"80,000",Enero I ,Presupuesto
+Comida,Gasto,"120,000",Enero I ,Presupuesto
+Viajes,Gasto,"57,500",Enero I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Enero I ,Presupuesto
+Internet,Gasto,"28,000",Enero I ,Presupuesto
+Electricidad,Gasto,"52,500",Enero I ,Presupuesto
+Comida afuera,Gasto,"150,000",Enero I ,Presupuesto
+Agua,Gasto,"3,000",Enero I ,Presupuesto
+Salario,Ingreso,"603,500",Enero II ,Presupuesto
+Ingresos Extra,Ingreso,0,Enero II ,Presupuesto
+Hipoteca,Gasto,"273,000",Enero II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Enero II ,Presupuesto
+Tasa 0,Gasto,"50,000",Enero II ,Presupuesto
+Boletos,Gasto,"32,400",Enero II ,Presupuesto
+Celular,Gasto,"19,100",Enero II ,Presupuesto
+Regalos,Gasto,0,Enero II ,Presupuesto
+Ahorro,Gasto,0,Enero II ,Presupuesto
+Entretenimiento,Gasto,0,Enero II ,Presupuesto
+Tequila,Gasto,0,Enero II ,Presupuesto
+Marchamo y seguros,Gasto,0,Enero II ,Presupuesto
+Ropa,Gasto,"49,000",Enero II ,Presupuesto
+Gas,Gasto,"30,000",Enero II ,Presupuesto
+Comida,Gasto,"20,000",Enero II ,Presupuesto
+Viajes,Gasto,"57,500",Enero II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Enero II ,Presupuesto
+Internet,Gasto,0,Enero II ,Presupuesto
+Electricidad,Gasto,0,Enero II ,Presupuesto
+Comida afuera,Gasto,"20,000",Enero II ,Presupuesto
+Agua,Gasto,"3,000",Enero II ,Presupuesto
+Salario,Ingreso,"1,203,500",Febrero I ,Presupuesto
+Ingresos Extra,Ingreso,0,Febrero I ,Presupuesto
+Hipoteca,Gasto,"273,000",Febrero I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Febrero I ,Presupuesto
+Tasa 0,Gasto,"60,000",Febrero I ,Presupuesto
+Boletos,Gasto,"90,000",Febrero I ,Presupuesto
+Celular,Gasto,0,Febrero I ,Presupuesto
+Regalos,Gasto,"60,000",Febrero I ,Presupuesto
+Ahorro,Gasto,"40,000",Febrero I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Febrero I ,Presupuesto
+Tequila,Gasto,"34,000",Febrero I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Febrero I ,Presupuesto
+Ropa,Gasto,"21,000",Febrero I ,Presupuesto
+Gas,Gasto,"80,000",Febrero I ,Presupuesto
+Comida,Gasto,"120,000",Febrero I ,Presupuesto
+Viajes,Gasto,"57,500",Febrero I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Febrero I ,Presupuesto
+Internet,Gasto,"28,000",Febrero I ,Presupuesto
+Electricidad,Gasto,"52,500",Febrero I ,Presupuesto
+Comida afuera,Gasto,"150,000",Febrero I ,Presupuesto
+Agua,Gasto,"3,000",Febrero I ,Presupuesto
+Salario,Ingreso,"603,500",Febrero II ,Presupuesto
+Ingresos Extra,Ingreso,0,Febrero II ,Presupuesto
+Hipoteca,Gasto,"273,000",Febrero II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Febrero II ,Presupuesto
+Tasa 0,Gasto,"50,000",Febrero II ,Presupuesto
+Boletos,Gasto,"32,400",Febrero II ,Presupuesto
+Celular,Gasto,"19,100",Febrero II ,Presupuesto
+Regalos,Gasto,0,Febrero II ,Presupuesto
+Ahorro,Gasto,0,Febrero II ,Presupuesto
+Entretenimiento,Gasto,0,Febrero II ,Presupuesto
+Tequila,Gasto,0,Febrero II ,Presupuesto
+Marchamo y seguros,Gasto,0,Febrero II ,Presupuesto
+Ropa,Gasto,"49,000",Febrero II ,Presupuesto
+Gas,Gasto,"30,000",Febrero II ,Presupuesto
+Comida,Gasto,"20,000",Febrero II ,Presupuesto
+Viajes,Gasto,"57,500",Febrero II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Febrero II ,Presupuesto
+Internet,Gasto,0,Febrero II ,Presupuesto
+Electricidad,Gasto,0,Febrero II ,Presupuesto
+Comida afuera,Gasto,"20,000",Febrero II ,Presupuesto
+Agua,Gasto,"3,000",Febrero II ,Presupuesto
+Salario,Ingreso,"1,203,500",Marzo I ,Presupuesto
+Ingresos Extra,Ingreso,0,Marzo I ,Presupuesto
+Hipoteca,Gasto,"273,000",Marzo I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Marzo I ,Presupuesto
+Tasa 0,Gasto,"60,000",Marzo I ,Presupuesto
+Boletos,Gasto,"90,000",Marzo I ,Presupuesto
+Celular,Gasto,0,Marzo I ,Presupuesto
+Regalos,Gasto,"60,000",Marzo I ,Presupuesto
+Ahorro,Gasto,"40,000",Marzo I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Marzo I ,Presupuesto
+Tequila,Gasto,"34,000",Marzo I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Marzo I ,Presupuesto
+Ropa,Gasto,"21,000",Marzo I ,Presupuesto
+Gas,Gasto,"80,000",Marzo I ,Presupuesto
+Comida,Gasto,"120,000",Marzo I ,Presupuesto
+Viajes,Gasto,"57,500",Marzo I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Marzo I ,Presupuesto
+Internet,Gasto,"28,000",Marzo I ,Presupuesto
+Electricidad,Gasto,"52,500",Marzo I ,Presupuesto
+Comida afuera,Gasto,"150,000",Marzo I ,Presupuesto
+Agua,Gasto,"3,000",Marzo I ,Presupuesto
+Salario,Ingreso,"603,500",Marzo II ,Presupuesto
+Ingresos Extra,Ingreso,0,Marzo II ,Presupuesto
+Hipoteca,Gasto,"273,000",Marzo II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Marzo II ,Presupuesto
+Tasa 0,Gasto,"50,000",Marzo II ,Presupuesto
+Boletos,Gasto,"32,400",Marzo II ,Presupuesto
+Celular,Gasto,"19,100",Marzo II ,Presupuesto
+Regalos,Gasto,0,Marzo II ,Presupuesto
+Ahorro,Gasto,0,Marzo II ,Presupuesto
+Entretenimiento,Gasto,0,Marzo II ,Presupuesto
+Tequila,Gasto,0,Marzo II ,Presupuesto
+Marchamo y seguros,Gasto,0,Marzo II ,Presupuesto
+Ropa,Gasto,"49,000",Marzo II ,Presupuesto
+Gas,Gasto,"30,000",Marzo II ,Presupuesto
+Comida,Gasto,"20,000",Marzo II ,Presupuesto
+Viajes,Gasto,"57,500",Marzo II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Marzo II ,Presupuesto
+Internet,Gasto,0,Marzo II ,Presupuesto
+Electricidad,Gasto,0,Marzo II ,Presupuesto
+Comida afuera,Gasto,"20,000",Marzo II ,Presupuesto
+Agua,Gasto,"3,000",Marzo II ,Presupuesto
+Salario,Ingreso,"1,203,500",Abril I ,Presupuesto
+Ingresos Extra,Ingreso,0,Abril I ,Presupuesto
+Hipoteca,Gasto,"273,000",Abril I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Abril I ,Presupuesto
+Tasa 0,Gasto,"60,000",Abril I ,Presupuesto
+Boletos,Gasto,"90,000",Abril I ,Presupuesto
+Celular,Gasto,0,Abril I ,Presupuesto
+Regalos,Gasto,"60,000",Abril I ,Presupuesto
+Ahorro,Gasto,"40,000",Abril I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Abril I ,Presupuesto
+Tequila,Gasto,"34,000",Abril I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Abril I ,Presupuesto
+Ropa,Gasto,"21,000",Abril I ,Presupuesto
+Gas,Gasto,"80,000",Abril I ,Presupuesto
+Comida,Gasto,"120,000",Abril I ,Presupuesto
+Viajes,Gasto,"57,500",Abril I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Abril I ,Presupuesto
+Internet,Gasto,"28,000",Abril I ,Presupuesto
+Electricidad,Gasto,"52,500",Abril I ,Presupuesto
+Comida afuera,Gasto,"150,000",Abril I ,Presupuesto
+Agua,Gasto,"3,000",Abril I ,Presupuesto
+Salario,Ingreso,"603,500",Abril II ,Presupuesto
+Ingresos Extra,Ingreso,0,Abril II ,Presupuesto
+Hipoteca,Gasto,"273,000",Abril II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Abril II ,Presupuesto
+Tasa 0,Gasto,"50,000",Abril II ,Presupuesto
+Boletos,Gasto,"32,400",Abril II ,Presupuesto
+Celular,Gasto,"19,100",Abril II ,Presupuesto
+Regalos,Gasto,0,Abril II ,Presupuesto
+Ahorro,Gasto,0,Abril II ,Presupuesto
+Entretenimiento,Gasto,0,Abril II ,Presupuesto
+Tequila,Gasto,0,Abril II ,Presupuesto
+Marchamo y seguros,Gasto,0,Abril II ,Presupuesto
+Ropa,Gasto,"49,000",Abril II ,Presupuesto
+Gas,Gasto,"30,000",Abril II ,Presupuesto
+Comida,Gasto,"20,000",Abril II ,Presupuesto
+Viajes,Gasto,"57,500",Abril II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Abril II ,Presupuesto
+Internet,Gasto,0,Abril II ,Presupuesto
+Electricidad,Gasto,0,Abril II ,Presupuesto
+Comida afuera,Gasto,"20,000",Abril II ,Presupuesto
+Agua,Gasto,"3,000",Abril II ,Presupuesto
+Salario,Ingreso,"1,203,500",Mayo I ,Presupuesto
+Ingresos Extra,Ingreso,0,Mayo I ,Presupuesto
+Hipoteca,Gasto,"273,000",Mayo I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Mayo I ,Presupuesto
+Tasa 0,Gasto,"60,000",Mayo I ,Presupuesto
+Boletos,Gasto,"90,000",Mayo I ,Presupuesto
+Celular,Gasto,0,Mayo I ,Presupuesto
+Regalos,Gasto,"60,000",Mayo I ,Presupuesto
+Ahorro,Gasto,"40,000",Mayo I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Mayo I ,Presupuesto
+Tequila,Gasto,"34,000",Mayo I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Mayo I ,Presupuesto
+Ropa,Gasto,"21,000",Mayo I ,Presupuesto
+Gas,Gasto,"80,000",Mayo I ,Presupuesto
+Comida,Gasto,"120,000",Mayo I ,Presupuesto
+Viajes,Gasto,"57,500",Mayo I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Mayo I ,Presupuesto
+Internet,Gasto,"28,000",Mayo I ,Presupuesto
+Electricidad,Gasto,"52,500",Mayo I ,Presupuesto
+Comida afuera,Gasto,"150,000",Mayo I ,Presupuesto
+Agua,Gasto,"3,000",Mayo I ,Presupuesto
+Salario,Ingreso,"603,500",Mayo II ,Presupuesto
+Ingresos Extra,Ingreso,0,Mayo II ,Presupuesto
+Hipoteca,Gasto,"273,000",Mayo II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Mayo II ,Presupuesto
+Tasa 0,Gasto,"50,000",Mayo II ,Presupuesto
+Boletos,Gasto,"32,400",Mayo II ,Presupuesto
+Celular,Gasto,"19,100",Mayo II ,Presupuesto
+Regalos,Gasto,0,Mayo II ,Presupuesto
+Ahorro,Gasto,0,Mayo II ,Presupuesto
+Entretenimiento,Gasto,0,Mayo II ,Presupuesto
+Tequila,Gasto,0,Mayo II ,Presupuesto
+Marchamo y seguros,Gasto,0,Mayo II ,Presupuesto
+Ropa,Gasto,"49,000",Mayo II ,Presupuesto
+Gas,Gasto,"30,000",Mayo II ,Presupuesto
+Comida,Gasto,"20,000",Mayo II ,Presupuesto
+Viajes,Gasto,"57,500",Mayo II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Mayo II ,Presupuesto
+Internet,Gasto,0,Mayo II ,Presupuesto
+Electricidad,Gasto,0,Mayo II ,Presupuesto
+Comida afuera,Gasto,"20,000",Mayo II ,Presupuesto
+Agua,Gasto,"3,000",Mayo II ,Presupuesto
+Salario,Ingreso,"1,203,500",Junio I ,Presupuesto
+Ingresos Extra,Ingreso,0,Junio I ,Presupuesto
+Hipoteca,Gasto,"273,000",Junio I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Junio I ,Presupuesto
+Tasa 0,Gasto,"60,000",Junio I ,Presupuesto
+Boletos,Gasto,"90,000",Junio I ,Presupuesto
+Celular,Gasto,0,Junio I ,Presupuesto
+Regalos,Gasto,"60,000",Junio I ,Presupuesto
+Ahorro,Gasto,"40,000",Junio I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Junio I ,Presupuesto
+Tequila,Gasto,"34,000",Junio I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Junio I ,Presupuesto
+Ropa,Gasto,"21,000",Junio I ,Presupuesto
+Gas,Gasto,"80,000",Junio I ,Presupuesto
+Comida,Gasto,"120,000",Junio I ,Presupuesto
+Viajes,Gasto,"57,500",Junio I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Junio I ,Presupuesto
+Internet,Gasto,"28,000",Junio I ,Presupuesto
+Electricidad,Gasto,"52,500",Junio I ,Presupuesto
+Comida afuera,Gasto,"150,000",Junio I ,Presupuesto
+Agua,Gasto,"3,000",Junio I ,Presupuesto
+Salario,Ingreso,"603,500",Junio II ,Presupuesto
+Ingresos Extra,Ingreso,0,Junio II ,Presupuesto
+Hipoteca,Gasto,"273,000",Junio II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Junio II ,Presupuesto
+Tasa 0,Gasto,"50,000",Junio II ,Presupuesto
+Boletos,Gasto,"32,400",Junio II ,Presupuesto
+Celular,Gasto,"19,100",Junio II ,Presupuesto
+Regalos,Gasto,0,Junio II ,Presupuesto
+Ahorro,Gasto,0,Junio II ,Presupuesto
+Entretenimiento,Gasto,0,Junio II ,Presupuesto
+Tequila,Gasto,0,Junio II ,Presupuesto
+Marchamo y seguros,Gasto,0,Junio II ,Presupuesto
+Ropa,Gasto,"49,000",Junio II ,Presupuesto
+Gas,Gasto,"30,000",Junio II ,Presupuesto
+Comida,Gasto,"20,000",Junio II ,Presupuesto
+Viajes,Gasto,"57,500",Junio II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Junio II ,Presupuesto
+Internet,Gasto,0,Junio II ,Presupuesto
+Electricidad,Gasto,0,Junio II ,Presupuesto
+Comida afuera,Gasto,"20,000",Junio II ,Presupuesto
+Agua,Gasto,"3,000",Junio II ,Presupuesto
+Salario,Ingreso,"1,203,500",Julio I ,Presupuesto
+Ingresos Extra,Ingreso,0,Julio I ,Presupuesto
+Hipoteca,Gasto,"273,000",Julio I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Julio I ,Presupuesto
+Tasa 0,Gasto,"60,000",Julio I ,Presupuesto
+Boletos,Gasto,"90,000",Julio I ,Presupuesto
+Celular,Gasto,0,Julio I ,Presupuesto
+Regalos,Gasto,"60,000",Julio I ,Presupuesto
+Ahorro,Gasto,"40,000",Julio I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Julio I ,Presupuesto
+Tequila,Gasto,"34,000",Julio I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Julio I ,Presupuesto
+Ropa,Gasto,"21,000",Julio I ,Presupuesto
+Gas,Gasto,"80,000",Julio I ,Presupuesto
+Comida,Gasto,"120,000",Julio I ,Presupuesto
+Viajes,Gasto,"57,500",Julio I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Julio I ,Presupuesto
+Internet,Gasto,"28,000",Julio I ,Presupuesto
+Electricidad,Gasto,"52,500",Julio I ,Presupuesto
+Comida afuera,Gasto,"150,000",Julio I ,Presupuesto
+Agua,Gasto,"3,000",Julio I ,Presupuesto
+Salario,Ingreso,"603,500",Julio II ,Presupuesto
+Ingresos Extra,Ingreso,0,Julio II ,Presupuesto
+Hipoteca,Gasto,"273,000",Julio II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Julio II ,Presupuesto
+Tasa 0,Gasto,"50,000",Julio II ,Presupuesto
+Boletos,Gasto,"32,400",Julio II ,Presupuesto
+Celular,Gasto,"19,100",Julio II ,Presupuesto
+Regalos,Gasto,0,Julio II ,Presupuesto
+Ahorro,Gasto,0,Julio II ,Presupuesto
+Entretenimiento,Gasto,0,Julio II ,Presupuesto
+Tequila,Gasto,0,Julio II ,Presupuesto
+Marchamo y seguros,Gasto,0,Julio II ,Presupuesto
+Ropa,Gasto,"49,000",Julio II ,Presupuesto
+Gas,Gasto,"30,000",Julio II ,Presupuesto
+Comida,Gasto,"20,000",Julio II ,Presupuesto
+Viajes,Gasto,"57,500",Julio II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Julio II ,Presupuesto
+Internet,Gasto,0,Julio II ,Presupuesto
+Electricidad,Gasto,0,Julio II ,Presupuesto
+Comida afuera,Gasto,"20,000",Julio II ,Presupuesto
+Agua,Gasto,"3,000",Julio II ,Presupuesto
+Salario,Ingreso,"1,203,500",Agosto I ,Presupuesto
+Ingresos Extra,Ingreso,0,Agosto I ,Presupuesto
+Hipoteca,Gasto,"273,000",Agosto I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Agosto I ,Presupuesto
+Tasa 0,Gasto,"60,000",Agosto I ,Presupuesto
+Boletos,Gasto,"90,000",Agosto I ,Presupuesto
+Celular,Gasto,0,Agosto I ,Presupuesto
+Regalos,Gasto,"60,000",Agosto I ,Presupuesto
+Ahorro,Gasto,"40,000",Agosto I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Agosto I ,Presupuesto
+Tequila,Gasto,"34,000",Agosto I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Agosto I ,Presupuesto
+Ropa,Gasto,"21,000",Agosto I ,Presupuesto
+Gas,Gasto,"80,000",Agosto I ,Presupuesto
+Comida,Gasto,"120,000",Agosto I ,Presupuesto
+Viajes,Gasto,"57,500",Agosto I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Agosto I ,Presupuesto
+Internet,Gasto,"28,000",Agosto I ,Presupuesto
+Electricidad,Gasto,"52,500",Agosto I ,Presupuesto
+Comida afuera,Gasto,"150,000",Agosto I ,Presupuesto
+Agua,Gasto,"3,000",Agosto I ,Presupuesto
+Salario,Ingreso,"603,500",Agosto II ,Presupuesto
+Ingresos Extra,Ingreso,0,Agosto II ,Presupuesto
+Hipoteca,Gasto,"273,000",Agosto II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Agosto II ,Presupuesto
+Tasa 0,Gasto,"50,000",Agosto II ,Presupuesto
+Boletos,Gasto,"32,400",Agosto II ,Presupuesto
+Celular,Gasto,"19,100",Agosto II ,Presupuesto
+Regalos,Gasto,0,Agosto II ,Presupuesto
+Ahorro,Gasto,0,Agosto II ,Presupuesto
+Entretenimiento,Gasto,0,Agosto II ,Presupuesto
+Tequila,Gasto,0,Agosto II ,Presupuesto
+Marchamo y seguros,Gasto,0,Agosto II ,Presupuesto
+Ropa,Gasto,"49,000",Agosto II ,Presupuesto
+Gas,Gasto,"30,000",Agosto II ,Presupuesto
+Comida,Gasto,"20,000",Agosto II ,Presupuesto
+Viajes,Gasto,"57,500",Agosto II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Agosto II ,Presupuesto
+Internet,Gasto,0,Agosto II ,Presupuesto
+Electricidad,Gasto,0,Agosto II ,Presupuesto
+Comida afuera,Gasto,"20,000",Agosto II ,Presupuesto
+Agua,Gasto,"3,000",Agosto II ,Presupuesto
+Salario,Ingreso,"1,203,500",Septiembre I ,Presupuesto
+Ingresos Extra,Ingreso,0,Septiembre I ,Presupuesto
+Hipoteca,Gasto,"273,000",Septiembre I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Septiembre I ,Presupuesto
+Tasa 0,Gasto,"60,000",Septiembre I ,Presupuesto
+Boletos,Gasto,"90,000",Septiembre I ,Presupuesto
+Celular,Gasto,0,Septiembre I ,Presupuesto
+Regalos,Gasto,"60,000",Septiembre I ,Presupuesto
+Ahorro,Gasto,"40,000",Septiembre I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Septiembre I ,Presupuesto
+Tequila,Gasto,"34,000",Septiembre I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Septiembre I ,Presupuesto
+Ropa,Gasto,"21,000",Septiembre I ,Presupuesto
+Gas,Gasto,"80,000",Septiembre I ,Presupuesto
+Comida,Gasto,"120,000",Septiembre I ,Presupuesto
+Viajes,Gasto,"57,500",Septiembre I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Septiembre I ,Presupuesto
+Internet,Gasto,"28,000",Septiembre I ,Presupuesto
+Electricidad,Gasto,"52,500",Septiembre I ,Presupuesto
+Comida afuera,Gasto,"150,000",Septiembre I ,Presupuesto
+Agua,Gasto,"3,000",Septiembre I ,Presupuesto
+Salario,Ingreso,"603,500",Septiembre II ,Presupuesto
+Ingresos Extra,Ingreso,0,Septiembre II ,Presupuesto
+Hipoteca,Gasto,"273,000",Septiembre II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Septiembre II ,Presupuesto
+Tasa 0,Gasto,"50,000",Septiembre II ,Presupuesto
+Boletos,Gasto,"32,400",Septiembre II ,Presupuesto
+Celular,Gasto,"19,100",Septiembre II ,Presupuesto
+Regalos,Gasto,0,Septiembre II ,Presupuesto
+Ahorro,Gasto,0,Septiembre II ,Presupuesto
+Entretenimiento,Gasto,0,Septiembre II ,Presupuesto
+Tequila,Gasto,0,Septiembre II ,Presupuesto
+Marchamo y seguros,Gasto,0,Septiembre II ,Presupuesto
+Ropa,Gasto,"49,000",Septiembre II ,Presupuesto
+Gas,Gasto,"30,000",Septiembre II ,Presupuesto
+Comida,Gasto,"20,000",Septiembre II ,Presupuesto
+Viajes,Gasto,"57,500",Septiembre II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Septiembre II ,Presupuesto
+Internet,Gasto,0,Septiembre II ,Presupuesto
+Electricidad,Gasto,0,Septiembre II ,Presupuesto
+Comida afuera,Gasto,"20,000",Septiembre II ,Presupuesto
+Agua,Gasto,"3,000",Septiembre II ,Presupuesto
+Salario,Ingreso,"1,203,500",Octubre I ,Presupuesto
+Ingresos Extra,Ingreso,0,Octubre I ,Presupuesto
+Hipoteca,Gasto,"273,000",Octubre I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Octubre I ,Presupuesto
+Tasa 0,Gasto,"60,000",Octubre I ,Presupuesto
+Boletos,Gasto,"90,000",Octubre I ,Presupuesto
+Celular,Gasto,0,Octubre I ,Presupuesto
+Regalos,Gasto,"60,000",Octubre I ,Presupuesto
+Ahorro,Gasto,"40,000",Octubre I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Octubre I ,Presupuesto
+Tequila,Gasto,"34,000",Octubre I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Octubre I ,Presupuesto
+Ropa,Gasto,"21,000",Octubre I ,Presupuesto
+Gas,Gasto,"80,000",Octubre I ,Presupuesto
+Comida,Gasto,"120,000",Octubre I ,Presupuesto
+Viajes,Gasto,"57,500",Octubre I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Octubre I ,Presupuesto
+Internet,Gasto,"28,000",Octubre I ,Presupuesto
+Electricidad,Gasto,"52,500",Octubre I ,Presupuesto
+Comida afuera,Gasto,"150,000",Octubre I ,Presupuesto
+Agua,Gasto,"3,000",Octubre I ,Presupuesto
+Salario,Ingreso,"603,500",Octubre II ,Presupuesto
+Ingresos Extra,Ingreso,0,Octubre II ,Presupuesto
+Hipoteca,Gasto,"273,000",Octubre II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Octubre II ,Presupuesto
+Tasa 0,Gasto,"50,000",Octubre II ,Presupuesto
+Boletos,Gasto,"32,400",Octubre II ,Presupuesto
+Celular,Gasto,"19,100",Octubre II ,Presupuesto
+Regalos,Gasto,0,Octubre II ,Presupuesto
+Ahorro,Gasto,0,Octubre II ,Presupuesto
+Entretenimiento,Gasto,0,Octubre II ,Presupuesto
+Tequila,Gasto,0,Octubre II ,Presupuesto
+Marchamo y seguros,Gasto,0,Octubre II ,Presupuesto
+Ropa,Gasto,"49,000",Octubre II ,Presupuesto
+Gas,Gasto,"30,000",Octubre II ,Presupuesto
+Comida,Gasto,"20,000",Octubre II ,Presupuesto
+Viajes,Gasto,"57,500",Octubre II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Octubre II ,Presupuesto
+Internet,Gasto,0,Octubre II ,Presupuesto
+Electricidad,Gasto,0,Octubre II ,Presupuesto
+Comida afuera,Gasto,"20,000",Octubre II ,Presupuesto
+Agua,Gasto,"3,000",Octubre II ,Presupuesto
+Salario,Ingreso,"1,203,500",Noviembre I ,Presupuesto
+Ingresos Extra,Ingreso,0,Noviembre I ,Presupuesto
+Hipoteca,Gasto,"273,000",Noviembre I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Noviembre I ,Presupuesto
+Tasa 0,Gasto,"60,000",Noviembre I ,Presupuesto
+Boletos,Gasto,"90,000",Noviembre I ,Presupuesto
+Celular,Gasto,0,Noviembre I ,Presupuesto
+Regalos,Gasto,"60,000",Noviembre I ,Presupuesto
+Ahorro,Gasto,"40,000",Noviembre I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Noviembre I ,Presupuesto
+Tequila,Gasto,"34,000",Noviembre I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Noviembre I ,Presupuesto
+Ropa,Gasto,"21,000",Noviembre I ,Presupuesto
+Gas,Gasto,"80,000",Noviembre I ,Presupuesto
+Comida,Gasto,"120,000",Noviembre I ,Presupuesto
+Viajes,Gasto,"57,500",Noviembre I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Noviembre I ,Presupuesto
+Internet,Gasto,"28,000",Noviembre I ,Presupuesto
+Electricidad,Gasto,"52,500",Noviembre I ,Presupuesto
+Comida afuera,Gasto,"150,000",Noviembre I ,Presupuesto
+Agua,Gasto,"3,000",Noviembre I ,Presupuesto
+Salario,Ingreso,"603,500",Noviembre II ,Presupuesto
+Ingresos Extra,Ingreso,0,Noviembre II ,Presupuesto
+Hipoteca,Gasto,"273,000",Noviembre II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Noviembre II ,Presupuesto
+Tasa 0,Gasto,"50,000",Noviembre II ,Presupuesto
+Boletos,Gasto,"32,400",Noviembre II ,Presupuesto
+Celular,Gasto,"19,100",Noviembre II ,Presupuesto
+Regalos,Gasto,0,Noviembre II ,Presupuesto
+Ahorro,Gasto,0,Noviembre II ,Presupuesto
+Entretenimiento,Gasto,0,Noviembre II ,Presupuesto
+Tequila,Gasto,0,Noviembre II ,Presupuesto
+Marchamo y seguros,Gasto,0,Noviembre II ,Presupuesto
+Ropa,Gasto,"49,000",Noviembre II ,Presupuesto
+Gas,Gasto,"30,000",Noviembre II ,Presupuesto
+Comida,Gasto,"20,000",Noviembre II ,Presupuesto
+Viajes,Gasto,"57,500",Noviembre II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Noviembre II ,Presupuesto
+Internet,Gasto,0,Noviembre II ,Presupuesto
+Electricidad,Gasto,0,Noviembre II ,Presupuesto
+Comida afuera,Gasto,"20,000",Noviembre II ,Presupuesto
+Agua,Gasto,"3,000",Noviembre II ,Presupuesto
+Salario,Ingreso,"1,203,500",Diciembre I ,Presupuesto
+Ingresos Extra,Ingreso,0,Diciembre I ,Presupuesto
+Hipoteca,Gasto,"273,000",Diciembre I ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Diciembre I ,Presupuesto
+Tasa 0,Gasto,"60,000",Diciembre I ,Presupuesto
+Boletos,Gasto,"90,000",Diciembre I ,Presupuesto
+Celular,Gasto,0,Diciembre I ,Presupuesto
+Regalos,Gasto,"60,000",Diciembre I ,Presupuesto
+Ahorro,Gasto,"40,000",Diciembre I ,Presupuesto
+Entretenimiento,Gasto,"25,000",Diciembre I ,Presupuesto
+Tequila,Gasto,"34,000",Diciembre I ,Presupuesto
+Marchamo y seguros,Gasto,"60,000",Diciembre I ,Presupuesto
+Ropa,Gasto,"21,000",Diciembre I ,Presupuesto
+Gas,Gasto,"80,000",Diciembre I ,Presupuesto
+Comida,Gasto,"120,000",Diciembre I ,Presupuesto
+Viajes,Gasto,"57,500",Diciembre I ,Presupuesto
+Cuota Carro,Gasto,"12,000",Diciembre I ,Presupuesto
+Internet,Gasto,"28,000",Diciembre I ,Presupuesto
+Electricidad,Gasto,"52,500",Diciembre I ,Presupuesto
+Comida afuera,Gasto,"150,000",Diciembre I ,Presupuesto
+Agua,Gasto,"3,000",Diciembre I ,Presupuesto
+Salario,Ingreso,"603,500",Diciembre II ,Presupuesto
+Ingresos Extra,Ingreso,0,Diciembre II ,Presupuesto
+Hipoteca,Gasto,"273,000",Diciembre II ,Presupuesto
+Cuota Condominio,Gasto,"37,500",Diciembre II ,Presupuesto
+Tasa 0,Gasto,"50,000",Diciembre II ,Presupuesto
+Boletos,Gasto,"32,400",Diciembre II ,Presupuesto
+Celular,Gasto,"19,100",Diciembre II ,Presupuesto
+Regalos,Gasto,0,Diciembre II ,Presupuesto
+Ahorro,Gasto,0,Diciembre II ,Presupuesto
+Entretenimiento,Gasto,0,Diciembre II ,Presupuesto
+Tequila,Gasto,0,Diciembre II ,Presupuesto
+Marchamo y seguros,Gasto,0,Diciembre II ,Presupuesto
+Ropa,Gasto,"49,000",Diciembre II ,Presupuesto
+Gas,Gasto,"30,000",Diciembre II ,Presupuesto
+Comida,Gasto,"20,000",Diciembre II ,Presupuesto
+Viajes,Gasto,"57,500",Diciembre II ,Presupuesto
+Cuota Carro,Gasto,"12,000",Diciembre II ,Presupuesto
+Internet,Gasto,0,Diciembre II ,Presupuesto
+Electricidad,Gasto,0,Diciembre II ,Presupuesto
+Comida afuera,Gasto,"20,000",Diciembre II ,Presupuesto
+Agua,Gasto,"3,000",Diciembre II ,Presupuesto
+Salario,Ingreso,"-1,203,500",Enero I ,Actual
+Ingresos Extra,Ingreso,0,Enero I ,Actual
+Hipoteca,Gasto,"-273,000",Enero I ,Actual
+Cuota Condominio,Gasto,"-37,500",Enero I ,Actual
+Tasa 0,Gasto,"-60,000",Enero I ,Actual
+Boletos,Gasto,"-90,000",Enero I ,Actual
+Celular,Gasto,0,Enero I ,Actual
+Regalos,Gasto,"-60,000",Enero I ,Actual
+Ahorro,Gasto,"-40,000",Enero I ,Actual
+Entretenimiento,Gasto,"-25,000",Enero I ,Actual
+Tequila,Gasto,"-34,000",Enero I ,Actual
+Marchamo y seguros,Gasto,"-60,000",Enero I ,Actual
+Ropa,Gasto,"-21,000",Enero I ,Actual
+Gas,Gasto,"-80,000",Enero I ,Actual
+Comida,Gasto,"-120,000",Enero I ,Actual
+Viajes,Gasto,"-57,500",Enero I ,Actual
+Cuota Carro,Gasto,"-12,000",Enero I ,Actual
+Internet,Gasto,"-28,000",Enero I ,Actual
+Electricidad,Gasto,"-52,500",Enero I ,Actual
+Comida afuera,Gasto,"-150,000",Enero I ,Actual
+Agua,Gasto,"-3,000",Enero I ,Actual
