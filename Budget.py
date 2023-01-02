@@ -77,7 +77,7 @@ with st.expander("Ingresos"):
 with st.expander("Gastos"):
     
     Diario=Diario
-    st.dataframe(Diario,use_container_width=True)
+    Diario2=st.dataframe(Diario,use_container_width=True)
     
     if st.checkbox("Registrar gasto"):
         with st.form("my_form2"):
@@ -92,7 +92,7 @@ with st.expander("Gastos"):
         if submitted2:
             #list_row = [motivo_option2, 'Gasto', monto_ingreso2, fecha,'2. Actual']
             new_row = {'Motivo':motivo_option2, 'Tipo':'Gasto', 'Monto':monto_ingreso2, 'Fecha':fecha, 'Escenario':'2. Actual'}
-            Diario.add_rows(new_row)
+            Diario2.add_rows(new_row)
             st.success('This is a success message!!', icon="✅")
 
 
