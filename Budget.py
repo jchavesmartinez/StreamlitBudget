@@ -77,6 +77,10 @@ with st.expander("Metricas y resultados"):
     new_cols=temp_cols[1:] + temp_cols[0:1]
     DiarioFinal1=DiarioFinal1[new_cols]
 
+    DiarioFinal1['Saldo Disponible %'] = DiarioFinal1['Saldo Disponible']/DiarioFinal1['Saldo Presupuestado']
+
+
+
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
