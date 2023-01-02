@@ -9,8 +9,8 @@ st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 
 with st.container():
     with st.expander("Presupuesto 2023"):
-        path= r"C:\Users\XPC\OneDrive\Desktop\StreamlitBudget"+'\\'
-        Budget2023 = pd.read_csv(path+'Budget.csv', encoding='latin-1')
+        path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
+        Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
         st.dataframe(Budget2023, 200, 100)
         
     with st.expander("Ingresos"):
