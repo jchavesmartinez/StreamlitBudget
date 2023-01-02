@@ -13,7 +13,7 @@ Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
 path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
 Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
-Diario.reset_index(inplace=True)
+#Diario.reset_index(inplace=True)
 
 hoy=date.today().strftime("%d-%b-%Y")
 mes=datetime.now().date().month
