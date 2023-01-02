@@ -4,6 +4,11 @@ import pandas as pd
 import numpy as np
 import os
 from datetime import datetime, date, time, timedelta, timezone
+import pymongo
+import pandas as pd
+from pandas import json_normalize
+import json
+
 
 st.set_page_config(layout="wide")
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
@@ -11,9 +16,19 @@ st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
-path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
-Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
-Diario.reset_index(inplace=True)
+#path2= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Diario.csv"
+#Diario = pd.read_csv(path2, encoding='utf8',index_col=0)
+#Diario.reset_index(inplace=True)
+
+
+CONNECTION_STRING = 'mongodb://presupuesto2023:CBCE5lRc5JX778aCQVXb9EmUJAnEA76qYuC3XAElUjuhkoJXJoy0pt4C0EZgHEygtT1R2j2iI1mvACDb6ljS4w==@presupuesto2023.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@presupuesto2023@' # Prompts user for connection string
+DB_NAME = "Presupuesto"
+
+client = pymongo.MongoClient(CONNECTION_STRING)
+db = client[DB_NAME]
+#cursor = db.COLLECTION_DIARIO # choosing the collection you need
+
+Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
 
 hoy=date.today().strftime("%d-%b-%Y")
 mes=datetime.now().date().month
