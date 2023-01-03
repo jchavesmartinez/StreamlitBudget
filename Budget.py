@@ -154,8 +154,8 @@ with st.expander("Saldos"):
     tab3, tab4, tab5= st.tabs(["Debito", "Credito", 'Tasas 0'])
 
     with tab3:
-        st.write("Mostrar saldos cuentas debito")
-
+        st.dataframe(Diario,use_container_width=True)
+        
     with tab4:
         st.write("Mostrar saldos cuentas credito")
 
