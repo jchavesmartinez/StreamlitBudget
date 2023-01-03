@@ -16,7 +16,8 @@ hide_menu_style = """
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
+
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
