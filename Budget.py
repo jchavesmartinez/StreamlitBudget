@@ -185,7 +185,7 @@ with st.expander("Saldos"):
 
         debitototal=(DiarioFinal2[DiarioFinal2['Tipo']=='Ingreso']['Monto'].sum())*-1+DiarioFinal2[DiarioFinal2['Tipo']=='Gasto']['Monto'].sum()
         col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-        col9.metric("Saldo Debito", debitototal, "4%")
+        col9.metric("Saldo Debito", int(debitototal), "4%")
         
         st.dataframe(DiarioFinal2,use_container_width=True)
 
