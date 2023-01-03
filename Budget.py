@@ -77,7 +77,7 @@ with st.expander("Ingresos"):
     if st.checkbox("Registrar ingreso"):
         with st.form("my_form"):
             motivo_option = st.selectbox('Motivo',('Salario', 'Ingreso extra'))
-            cuenta_option = st.selectbox('Cuenta Bancaria',('Tarjeta debito AAA', 'Tarjeta debito BBB', 'Tarjeta credito AAA','Tarjeta de credito BBB'))            
+            cuenta_option = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta de credito Aline'))            
             monto_ingreso = st.number_input('Monto')
             #currency_option = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
             nota_input = st.text_input('Comentario')
@@ -96,7 +96,7 @@ with st.expander("Gastos"):
         
         with st.form("my_form2"):
             motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boltos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comidas afuera','Agua'))
-            cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito AAA', 'Tarjeta debito BBB', 'Tarjeta credito AAA','Tarjeta de credito BBB'))            
+            cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta de credito Aline'))            
             monto_ingreso2 = st.number_input('Monto')
             #currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
             nota_input2 = st.text_input('Comentario')
@@ -159,7 +159,7 @@ with st.expander("Saldos"):
     with tab3:
         mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key='mes2')
         quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena2')
-        cuenta_option2 = st.selectbox('Seleccione una cuenta',('Tarjeta debito AAA', 'Tarjeta debito BBB'),key='cuenta')
+        cuenta_option2 = st.selectbox('Seleccione una cuenta',('Tarjeta debito Jose', 'Tarjeta debito Aline'),key='cuenta')
         if  quicena_option2=='Primera quincena':
             fechafiltrar2= mes_option2 + ' I '
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
@@ -182,7 +182,7 @@ with st.expander("Saldos"):
     with tab4:
         mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key='mes3')
         quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena3')
-        cuenta_option2 = st.selectbox('Seleccione una cuenta',('Tarjeta credito AAA', 'Tarjeta credito BBB'),key='cuenta3')
+        cuenta_option2 = st.selectbox('Seleccione una cuenta',('Tarjeta credito Jose', 'Tarjeta credito Aline'),key='cuenta3')
         if  quicena_option2=='Primera quincena':
             fechafiltrar2= mes_option2 + ' I '
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
