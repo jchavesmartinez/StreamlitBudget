@@ -79,13 +79,13 @@ with st.expander("Ingresos"):
             motivo_option = st.selectbox('Motivo',('Salario', 'Ingreso extra'))
             cuenta_option = st.selectbox('Cuenta Bancaria',('Tarjeta debito AAA', 'Tarjeta debito BBB', 'Tarjeta credito AAA','Tarjeta de credito BBB'))            
             monto_ingreso = st.number_input('Monto')
-            currency_option = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
+            #currency_option = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
             nota_input = st.text_input('Comentario')
             
             submitted = st.form_submit_button("Submit")
         
         if submitted:
-            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option, "Tipo": 'Gasto', "Monto": monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual'})
+            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option, "Tipo": 'Gasto', "Monto": monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option, "Nota": nota_input})
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
@@ -98,7 +98,7 @@ with st.expander("Gastos"):
             motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boltos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comidas afuera','Agua'))
             cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito AAA', 'Tarjeta debito BBB', 'Tarjeta credito AAA','Tarjeta de credito BBB'))            
             monto_ingreso2 = st.number_input('Monto')
-            currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
+            #currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
             nota_input2 = st.text_input('Comentario')
             submitted2 = st.form_submit_button("Submit")
         
