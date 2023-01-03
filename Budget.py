@@ -97,6 +97,7 @@ with st.expander("Gastos"):
             monto_ingreso2 = st.number_input('Monto')
             currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
             nota_input2 = st.text_input('Comentario')
+            nota2=st.text_input("5comentarios")
             submitted2 = st.form_submit_button("Submit")
         
         if submitted2:
