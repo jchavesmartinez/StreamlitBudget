@@ -154,8 +154,18 @@ with st.expander("Saldos"):
     tab3, tab4, tab5= st.tabs(["Debito", "Credito", 'Tasas 0'])
 
     with tab3:
-        st.dataframe(Diario,use_container_width=True)
-        
+        mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
+        quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
+        if  quicena_option2=='Primera quincena':
+            fechafiltrar2= mes_option2 + ' I '
+            DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
+        elif quicena_option2=='Segunda quincena':
+            fechafiltrar2= mes_option2 + ' II '
+            DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
+        elif quicena_option2=='Ambas':
+            DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
+        st.dataframe(DiarioFinal2,use_container_width=True)
+
     with tab4:
         st.write("Mostrar saldos cuentas credito")
 
