@@ -82,7 +82,9 @@ with st.expander("Ingresos"):
             submitted = st.form_submit_button("Submit")
         
         if submitted:
-            st.write("slider")
+            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option, "Tipo": 'Gasto', "Monto": monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual'})
+            st.success('This is a success message!!', icon="✅")
+            st.experimental_rerun()
 
 with st.expander("Gastos"):
     
@@ -132,6 +134,10 @@ with st.expander("Metricas y resultados"):
 
     DiarioFinal1['Saldo Consumido %'] = 100 - (DiarioFinal1['Saldo Disponible']/DiarioFinal1['Saldo Presupuestado']*100)
 
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Temperature", "70 °F", "1.2 °F")
+    col2.metric("Wind", "9 mph", "-8%")
+    col3.metric("Humidity", "86%", "4%")
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
