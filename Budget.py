@@ -183,7 +183,7 @@ with st.expander("Saldos"):
         DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('debito')]
 
-        debitototal=DiarioFinal2[DiarioFinal2['Tipo']=='Ingreso']['Cuenta'].sum()#+(sum(DiarioFinal2[DiarioFinal2['Tipo']=='Gasto']['Cuenta']))
+        debitototal=DiarioFinal2[DiarioFinal2['Tipo']=='Ingreso']['Monto'].sum()#+(sum(DiarioFinal2[DiarioFinal2['Tipo']=='Gasto']['Cuenta']))
         col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
         col9.metric("Saldo Debito", debitototal, "4%")
         
