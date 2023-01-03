@@ -166,6 +166,7 @@ with st.expander("Saldos"):
             DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
         DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
+        DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']!='Sin Cuenta']
 
 
         st.dataframe(DiarioFinal2,use_container_width=True)
