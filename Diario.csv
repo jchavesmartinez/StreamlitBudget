@@ -1,510 +1,510 @@
 ﻿Motivo,Tipo,Monto,Fecha,Escenario,Cuenta,Nota
 Salario,Ingreso,1203500,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Salario,Ingreso,0,Enero I ,2. Actual,Sin Cuenta,5comentarios
+Ingresos Extra,Ingreso,0,Enero I ,2. Actual,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,1203500,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,60000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,90000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,0,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Regalos,Gasto,60000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,40000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Entretenimiento,Gasto,25000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Tequila,Gasto,34000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Marchamo y seguros,Gasto,60000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,21000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,80000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,120000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,"130,000",Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Regalos,Gasto,35000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,50000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Entretenimiento,Gasto,"73,500",Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Tequila,Gasto,30000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Marchamo y seguros,Gasto,"43,000",Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,100000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,80000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,28000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,52500,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,150000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
 Salario,Ingreso,603500,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Ingresos Extra,Ingreso,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Hipoteca,Gasto,273000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Hipoteca,Gasto,"265,000",Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,37500,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Tasa 0,Gasto,50000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Boletos,Gasto,32400,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Celular,Gasto,19100,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Tasa 0,Gasto,30000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Boletos,Gasto,30000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Celular,Gasto,10000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Regalos,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ahorro,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ahorro,Gasto,19500,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Entretenimiento,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Tequila,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Marchamo y seguros,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Ropa,Gasto,49000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Gas,Gasto,30000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida,Gasto,20000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Viajes,Gasto,57500,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Cuota Carro,Gasto,12000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Ropa,Gasto,"30,000",Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Gas,Gasto,50000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida,Gasto,40000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Viajes,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Cuota Carro,Gasto,57500,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
 Internet,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Electricidad,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Comida afuera,Gasto,20000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Agua,Gasto,3000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
-Salario,Ingreso,0,Enero I ,2. Actual,Sin Cuenta,5comentarios
-Ingresos Extra,Ingreso,0,Enero I ,2. Actual,Sin Cuenta,5comentarios
+Electricidad,Gasto,10000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Comida afuera,Gasto,80000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Agua,Gasto,4000,Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
 Hipoteca,Gasto,0,Enero I ,2. Actual,Sin Cuenta,5comentarios
 Cuota Condominio,Gasto,0,Enero I ,2. Actual,Sin Cuenta,5comentarios
 Tasa 0,Gasto,0,Enero I ,2. Actual,Sin Cuenta,5comentarios
@@ -1007,3 +1007,51 @@ Internet,Gasto,0,Diciembre II ,2. Actual,Sin Cuenta,5comentarios
 Electricidad,Gasto,0,Diciembre II ,2. Actual,Sin Cuenta,5comentarios
 Comida afuera,Gasto,0,Diciembre II ,2. Actual,Sin Cuenta,5comentarios
 Agua,Gasto,0,Diciembre II ,2. Actual,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Carro Mantenimiento,Gasto,"20,000",Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Enero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Enero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Febrero I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Febrero II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Marzo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Marzo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Abril I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Abril II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Mayo I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Mayo II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Junio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Junio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Julio I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Julio II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Agosto I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Agosto II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Septiembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Septiembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Octubre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Octubre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Noviembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Noviembre II ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,"40,000",Diciembre I ,1. Presupuesto,Sin Cuenta,5comentarios
+Casa Mantenimiento,Gasto,0,Diciembre II ,1. Presupuesto,Sin Cuenta,5comentarios
