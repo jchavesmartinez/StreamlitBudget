@@ -165,7 +165,7 @@ with st.expander("Saldos"):
         elif quicena_option2=='Ambas':
             DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
-        DiarioFinal2=DiarioFinal2.drop(columns=('_id', 'Escenario'))
+        DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario'])
 
 
         st.dataframe(DiarioFinal2,use_container_width=True)
