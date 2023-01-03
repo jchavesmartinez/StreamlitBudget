@@ -16,6 +16,9 @@ st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
+path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Tasas0.csv"
+Tasas0 = pd.read_csv(path, encoding='latin-1',index_col=0)
+
 CONNECTION_STRING = 'mongodb://presupuesto2023:CBCE5lRc5JX778aCQVXb9EmUJAnEA76qYuC3XAElUjuhkoJXJoy0pt4C0EZgHEygtT1R2j2iI1mvACDb6ljS4w==@presupuesto2023.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@presupuesto2023@' # Prompts user for connection string
 DB_NAME = "Presupuesto"
 
@@ -180,4 +183,4 @@ with st.expander("Saldos"):
         st.write("Mostrar saldos cuentas credito")
 
     with tab5:
-        st.write("Mostrar saldos cuentas tasas 0")
+        st.dataframe(Tasas0,use_container_width=True)
