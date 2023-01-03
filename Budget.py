@@ -9,15 +9,16 @@ import pandas as pd
 from pandas import json_normalize
 import json
 
+st.set_page_config(layout="wide")
+
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
-        .reportview-container .main footer {visibility: hidden;} 
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-#st.set_page_config(layout="wide")
+
 
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 
