@@ -107,8 +107,8 @@ with st.expander("Gastos"):
 
 with st.expander("Metricas y resultados"):
     
-    mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
-    quicena_option = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
+    mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key="mes1")
+    quicena_option = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena1')
     if  quicena_option=='Primera quincena':
         fechafiltrar= mes_option + ' I '
         DiarioFinal=Diario[Diario['Fecha']==fechafiltrar]
@@ -154,8 +154,8 @@ with st.expander("Saldos"):
     tab3, tab4, tab5= st.tabs(["Debito", "Credito", 'Tasas 0'])
 
     with tab3:
-        mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'))
-        quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'))
+        mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key='mes2')
+        quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena2')
         if  quicena_option2=='Primera quincena':
             fechafiltrar2= mes_option2 + ' I '
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
