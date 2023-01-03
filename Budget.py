@@ -165,6 +165,7 @@ with st.expander("Saldos"):
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
         elif quicena_option2=='Ambas':
             DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
+        DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
         DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('debito')]
