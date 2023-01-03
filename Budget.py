@@ -180,7 +180,27 @@ with st.expander("Saldos"):
         st.dataframe(DiarioFinal2,use_container_width=True)
 
     with tab4:
-        st.write("Mostrar saldos cuentas credito")
+        mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key='mes3')
+        quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena3')
+        cuenta_option2 = st.selectbox('Seleccione una cuenta',('Tarjeta debito AAA', 'Tarjeta debito BBB'),key='cuenta3')
+        if  quicena_option2=='Primera quincena':
+            fechafiltrar2= mes_option2 + ' I '
+            DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
+        elif quicena_option2=='Segunda quincena':
+            fechafiltrar2= mes_option2 + ' II '
+            DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
+        elif quicena_option2=='Ambas':
+            DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
+        DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
+        DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
+        DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
+        DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('credito')]
+
+        debitototal=DiarioFinal2['Cuenta'].sum()
+        col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
+        col9.metric("Saldo Credito", debitototal, "4%")
+        
+        st.dataframe(DiarioFinal2,use_container_width=True)
 
     with tab5:
         st.dataframe(Tasas0,use_container_width=True)
