@@ -135,10 +135,11 @@ with st.expander("Metricas y resultados"):
     DiarioFinal1['Saldo Consumido %'] = 100 - (DiarioFinal1['Saldo Disponible']/DiarioFinal1['Saldo Presupuestado']*100)
 
     col1, col2, col3, col4,col5 = st.columns([1,1,1,1,1])
-    col2.metric("Wind", "9 mph", "-8%")
-    col3.metric("Humidity", "86%", "4%")
-    col4.metric("Humidity", "86%", "4%")
-
+    #col1.metric("Temperature", "70 °F", "1.2 °F")
+    col2.metric("Saldo Presupuestado", "9 mph", "-8%")
+    col3.metric("Saldo Consumido", "86%", "4%")
+    col4.metric("Saldo Disponible", "86%", "4%")
+    col5.metric("Saldo Consumido", "86%", "4%")
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
