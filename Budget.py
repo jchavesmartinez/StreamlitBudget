@@ -168,6 +168,13 @@ with st.expander("Saldos"):
         DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('debito')]
 
+        debitototal=DiarioFinal2['Cuenta'].sum()
+        col7, col8, col9, col10,col11 = st.columns([1,1,1,1,1])
+        #col1.metric("Temperature", "70 °F", "1.2 °F")
+        col2.metric("Saldo Presupuestado", "9 mph", "-8%")
+        col3.metric("Saldo Consumido", "86%", "4%")
+        col4.metric("Saldo Disponible", "86%", "4%")
+        col5.metric("Saldo Consumido", "86%", "4%")
 
         st.dataframe(DiarioFinal2,use_container_width=True)
 
