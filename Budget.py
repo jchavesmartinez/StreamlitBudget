@@ -70,9 +70,9 @@ elif mes==12:
     mes='Diciembre'
 
 if int(dia)<15:
-    quincena=' I'
+    quincena=' I '
 if int(dia)>15:
-    quincena=' II'
+    quincena=' II '
 
 fecha=mes+quincena
 
@@ -95,7 +95,7 @@ with st.expander("Ingresos"):
             submitted = st.form_submit_button("Submit")
         
         if submitted:
-            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option, "Tipo": 'Gasto', "Monto": monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option, "Nota": nota_input})
+            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option, "Tipo": 'Gasto', "Monto": -monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option, "Nota": nota_input})
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
