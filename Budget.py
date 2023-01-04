@@ -164,7 +164,7 @@ with st.expander("Metricas y resultados"):
         col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()))
         col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()))
         col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()))
-        col5.metric("Saldo Consumido", -int(DiarioCalculosA['Monto'].sum())/int(DiarioCalculosP['Monto'].sum())*100)
+        col5.metric("Saldo Consumido", str(int(DiarioCalculosA['Monto'].sum()/DiarioCalculosP['Monto'].sum()*100))+'%')
         st.dataframe(DiarioFinal1,use_container_width=True)
 
     with tab2:
