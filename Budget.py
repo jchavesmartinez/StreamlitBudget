@@ -265,7 +265,7 @@ with st.expander("Saldos"):
                     st.success('This is a success message!!', icon="✅")
                     st.experimental_rerun()
         
-        st.dataframe(DiarioFinal2,use_container_width=True)
+        #st.dataframe(DiarioFinal2,use_container_width=True)
 
     with tab5:
         st.dataframe(Tasas0,use_container_width=True)
