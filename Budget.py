@@ -231,7 +231,16 @@ with st.expander("Saldos"):
             col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
 
             if st.button('Pagar tarjeta credito Jose',key="PagoTarjetaJose"):
-                st.write("Holi")
+                with st.form("my_form2"):
+                    cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'))            
+                    monto_ingreso2 = st.number_input('Monto')
+                    submitted2 = st.form_submit_button("Confirmar pago")
+                
+                if submitted2:
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Jose', "Nota": 'Pago tarjeta de credito Jose'})
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": 'Pago tarjeta de credito Jose'})
+                    st.success('This is a success message!!', icon="✅")
+                    st.experimental_rerun()
 
 
         elif cuenta_option2=='Tarjeta credito Aline':
@@ -242,18 +251,16 @@ with st.expander("Saldos"):
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
             col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
 
-            if st.button('Pagar tarjeta credito Jose',key="PagoTarjetaAline"):
+            if st.button('Pagar tarjeta credito Aline',key="PagoTarjetaAline"):
                 
                 with st.form("my_form2"):
-                    motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'))
-                    cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta de credito Aline'))            
+                    cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'))            
                     monto_ingreso2 = st.number_input('Monto')
-                    #currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
-                    nota_input2 = st.text_input('Comentario')
-                    submitted2 = st.form_submit_button("Submit")
+                    submitted2 = st.form_submit_button("Confirmar pago")
                 
                 if submitted2:
-                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Aline', "Nota": 'Pago tarjeta de credito Aline'})
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": 'Pago tarjeta de credito Aline'})
                     st.success('This is a success message!!', icon="✅")
                     st.experimental_rerun()
 
