@@ -212,12 +212,13 @@ with st.expander("Saldos"):
         elif quicena_option2=='Ambas':
             DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
        
-        if cuenta_option2!='Ambas':
-            DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
+        if cuenta_option2=='Ambas':
             saldoinicial=359293.82+0
         elif cuenta_option2=='Tarjeta credito Jose':
+            DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=359293.82
         elif cuenta_option2=='Tarjeta credito Aline':
+            DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=0
        
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
