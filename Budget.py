@@ -220,7 +220,7 @@ with st.expander("Saldos"):
 
             debitototal=DiarioFinal2['Monto'].sum()
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-            col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
+            col9.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
         elif cuenta_option2=='Tarjeta credito Jose':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
@@ -228,7 +228,7 @@ with st.expander("Saldos"):
 
             debitototal=DiarioFinal2['Monto'].sum()
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-            col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
+            col9.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
             if st.checkbox("Pagar tarjeta Jose"):
                 
@@ -251,7 +251,7 @@ with st.expander("Saldos"):
 
             debitototal=DiarioFinal2['Monto'].sum()
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-            col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
+            col9.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
             if st.checkbox("Pagar tarjeta Aline"):
                 
@@ -264,7 +264,7 @@ with st.expander("Saldos"):
                     db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Aline', "Nota": 'Pago tarjeta de credito Aline'})
                     db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": 'Pago tarjeta de credito Aline'})
                     st.success('This is a success message!!', icon="✅")
-                    #st.experimental_rerun()
+                    st.experimental_rerun()
 
         
         st.dataframe(DiarioFinal2,use_container_width=True)
