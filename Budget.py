@@ -161,10 +161,10 @@ with st.expander("Metricas y resultados"):
     with tab1:
         col1, col2, col3, col4,col5 = st.columns([1,1,1,1,1])
         #col1.metric("Temperature", "70 °F", "1.2 °F")
-        col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()), "-8%")
-        col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()), "4%")
-        col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()), "4%")
-        col5.metric("Saldo Consumido", "86%", "4%")
+        col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()))
+        col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()))
+        col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()))
+        col5.metric("Saldo Consumido", -int(DiarioCalculosA['Monto'].sum())/int(DiarioCalculosP['Monto'].sum())*100)
         st.dataframe(DiarioFinal1,use_container_width=True)
 
     with tab2:
