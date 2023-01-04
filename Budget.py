@@ -87,7 +87,7 @@ with st.expander("Ingresos"):
     if st.checkbox("Registrar ingreso"):
         with st.form("my_form"):
             motivo_option = st.selectbox('Motivo',('Salario', 'Ingreso extra'))
-            cuenta_option = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta de credito Aline'))            
+            cuenta_option = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'))            
             monto_ingreso = st.number_input('Monto')
             #currency_option = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
             nota_input = st.text_input('Comentario')
