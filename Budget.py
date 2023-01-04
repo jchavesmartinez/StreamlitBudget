@@ -135,6 +135,7 @@ with st.expander("Metricas y resultados"):
     DiarioFinalPresupuesto1=DiarioFinalPresupuesto
     DiarioFinalPresupuesto = DiarioFinalPresupuesto.groupby(['Motivo'])['Monto'].sum()
     DiarioFinalActual=DiarioFinal[DiarioFinal['Escenario']=='2. Actual']
+    DiarioFinalActual1=DiarioFinalActual
     DiarioFinalActual = DiarioFinalActual.groupby(['Motivo'])['Monto'].sum()
     DiarioFinal2 = DiarioFinal.groupby(['Motivo'])['Monto'].sum()
 
@@ -151,14 +152,17 @@ with st.expander("Metricas y resultados"):
     DiarioCalculosP=DiarioFinalPresupuesto1[(DiarioFinalPresupuesto1.Motivo != "Salario")]
     DiarioCalculosP=DiarioCalculosP[(DiarioCalculosP.Motivo != "Ingresos Extra")]
 
+    DiarioCalculosA=DiarioFinalActual1[(DiarioFinalActual1.Motivo != "Salario")]
+    DiarioCalculosA=DiarioCalculosA[(DiarioCalculosA.Motivo != "Ingresos Extra")]
+
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
         col1, col2, col3, col4,col5 = st.columns([1,1,1,1,1])
         #col1.metric("Temperature", "70 °F", "1.2 °F")
-        col2.metric("Saldo Presupuestado", DiarioCalculosP['Monto'].sum(), "-8%")
-        col3.metric("Saldo Consumido", "86%", "4%")
+        col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()), "-8%")
+        col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()), "4%")
         col4.metric("Saldo Disponible", "86%", "4%")
         col5.metric("Saldo Consumido", "86%", "4%")
         st.dataframe(DiarioFinal1,use_container_width=True)
