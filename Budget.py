@@ -132,6 +132,7 @@ with st.expander("Metricas y resultados"):
         DiarioFinal=Diario[Diario['Fecha'].str.contains(mes_option)]
     
     DiarioFinalPresupuesto=DiarioFinal[DiarioFinal['Escenario']=='1. Presupuesto']
+    DiarioFinalPresupuesto1=DiarioFinalPresupuesto
     DiarioFinalPresupuesto = DiarioFinalPresupuesto.groupby(['Motivo'])['Monto'].sum()
     DiarioFinalActual=DiarioFinal[DiarioFinal['Escenario']=='2. Actual']
     DiarioFinalActual = DiarioFinalActual.groupby(['Motivo'])['Monto'].sum()
@@ -147,8 +148,8 @@ with st.expander("Metricas y resultados"):
 
     DiarioFinal1['Saldo Consumido %'] = 100 - (DiarioFinal1['Saldo Disponible']/DiarioFinal1['Saldo Presupuestado']*100)
 
-    DiarioCalculos=DiarioFinalPresupuesto[(DiarioFinalPresupuesto.Motivo == "JFK")]
-    st.dataframe(DiarioCalculos,use_container_width=True)
+    #DiarioCalculos=DiarioFinalPresupuesto[(DiarioFinalPresupuesto.Motivo == "JFK")]
+    st.dataframe(DiarioFinalPresupuesto1,use_container_width=True)
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
