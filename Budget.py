@@ -148,8 +148,9 @@ with st.expander("Metricas y resultados"):
 
     DiarioFinal1['Saldo Consumido %'] = 100 - (DiarioFinal1['Saldo Disponible']/DiarioFinal1['Saldo Presupuestado']*100)
 
-    DiarioCalculos=DiarioFinalPresupuesto1[(DiarioFinalPresupuesto1.Motivo != ("Salario",'Ingreso Extra'))]
-
+    DiarioCalculos=DiarioFinalPresupuesto1[(DiarioFinalPresupuesto1.Motivo != "Salario")]
+    DiarioCalculos=DiarioCalculos[(DiarioCalculos.Motivo != "Ingreso Extra")]
+    
     st.dataframe(DiarioCalculos,use_container_width=True)
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
