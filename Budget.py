@@ -216,7 +216,7 @@ with st.expander("Saldos"):
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('credito')]
 
         if cuenta_option2=='Ambas':
-            saldoinicial=-322862.82.82+0
+            saldoinicial=-322862.82+0
 
             debitototal=DiarioFinal2['Monto'].sum()
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
