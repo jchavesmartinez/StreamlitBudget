@@ -253,8 +253,7 @@ with st.expander("Saldos"):
             col39.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
             if st.checkbox("Pagar tarjeta Aline"):
-                
-                st.write("Hola")
+
                 with st.form("PagoAline"):
                     cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'),key='pagoaline1')            
                     monto_ingreso2 = st.number_input('Monto',key='pagoaline2')
