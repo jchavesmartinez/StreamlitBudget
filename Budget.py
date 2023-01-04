@@ -216,8 +216,10 @@ with st.expander("Saldos"):
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=1
         elif cuenta_option2!='Tarjeta credito Jose':
+            DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=359293.82
         elif cuenta_option2!='Tarjeta credito Aline':
+            DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=2
        
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
