@@ -230,7 +230,7 @@ with st.expander("Saldos"):
             debitototal=DiarioFinal2['Monto'].sum()
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
             col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
-            col11.button('Pagar tarjeta credito Jose')
+            col11.button('Pagar tarjeta credito Jose',key="PagoTarjetaJose")
 
             if st.button('Pagar tarjeta credito Jose'):
                 st.write("Holi")
