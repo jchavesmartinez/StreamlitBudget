@@ -163,7 +163,7 @@ with st.expander("Metricas y resultados"):
         #col1.metric("Temperature", "70 °F", "1.2 °F")
         col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()), "-8%")
         col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()), "4%")
-        col4.metric("Saldo Disponible", "86%", "4%")
+        col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())-int(DiarioCalculosA['Monto'].sum()), "4%")
         col5.metric("Saldo Consumido", "86%", "4%")
         st.dataframe(DiarioFinal1,use_container_width=True)
 
