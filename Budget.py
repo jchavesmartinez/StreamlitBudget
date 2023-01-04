@@ -211,7 +211,11 @@ with st.expander("Saldos"):
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
         elif quicena_option2=='Ambas':
             DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
-       
+            
+        DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
+        DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
+        DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('credito')]
+
         if cuenta_option2=='Ambas':
             saldoinicial=359293.82+0
         elif cuenta_option2=='Tarjeta credito Jose':
@@ -220,10 +224,6 @@ with st.expander("Saldos"):
         elif cuenta_option2=='Tarjeta credito Aline':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=0
-       
-        DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
-        DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
-        DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('credito')]
 
         debitototal=DiarioFinal2['Monto'].sum()
         col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
