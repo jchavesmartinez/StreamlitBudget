@@ -176,7 +176,7 @@ with st.expander("Saldos"):
     with tab3:
         mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key='mes2')
         quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena2')
-        cuenta_option2 = st.selectbox('Seleccione una cuenta',('Tarjeta debito Jose', 'Tarjeta debito Aline'),key='cuenta')
+        cuenta_option2 = st.selectbox('Seleccione una cuenta',('Ambas','Tarjeta debito Jose', 'Tarjeta debito Aline'),key='cuenta')
         if  quicena_option2=='Primera quincena':
             fechafiltrar2= mes_option2 + ' I '
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
@@ -185,7 +185,10 @@ with st.expander("Saldos"):
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
         elif quicena_option2=='Ambas':
             DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
-        DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
+        
+        if cuenta_option2 !='Ambas':
+            DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
+        
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
         DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('debito')]
