@@ -255,8 +255,8 @@ with st.expander("Saldos"):
             if st.checkbox("Pagar tarjeta Aline"):
                 
                 st.write("Hola")
-                #with st.form("my_form22",key="PagoAline"):
-                #    cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'),key='pagoaline1')            
+                with st.form("my_form22",key="PagoAline"):
+                    cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'),key='pagoaline1')            
                 #    monto_ingreso2 = st.number_input('Monto',key='pagoaline2')
                 #   submitted4 = st.form_submit_button("Confirmar pago",key='pagoaline3')
                 
