@@ -232,6 +232,10 @@ with st.expander("Saldos"):
             col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
             col11.button('Pagar tarjeta credito Jose')
 
+            if st.button('Pagar tarjeta credito Jose'):
+                st.write("Holi")
+
+
         elif cuenta_option2=='Tarjeta credito Aline':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=-0
