@@ -206,7 +206,7 @@ with st.expander("Saldos"):
             fechafiltrar2= mes_option2 + ' I '
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
         elif quicena_option2=='Segunda quincena':
-            fechafiltrar2= mes_option2 + ' II '
+            fechafiltrar2= mes_option`2` + ' II '
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
         elif quicena_option2=='Ambas':
             DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
@@ -265,7 +265,6 @@ with st.expander("Saldos"):
                     db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": 'Pago tarjeta de credito Aline'})
                     st.success('This is a success message!!', icon="✅")
                     st.experimental_rerun()
-
         
         st.dataframe(DiarioFinal2,use_container_width=True)
 
