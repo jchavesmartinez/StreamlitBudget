@@ -217,7 +217,7 @@ with st.expander("Saldos"):
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('credito')]
 
         if cuenta_option2=='Ambas':
-            saldoinicial=359293.82+0
+            saldoinicial=-359293.82+0
 
             debitototal=DiarioFinal2['Monto'].sum()
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
@@ -225,7 +225,7 @@ with st.expander("Saldos"):
 
         elif cuenta_option2=='Tarjeta credito Jose':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
-            saldoinicial=359293.82
+            saldoinicial=-359293.82
 
             debitototal=DiarioFinal2['Monto'].sum()
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
@@ -234,11 +234,11 @@ with st.expander("Saldos"):
 
         elif cuenta_option2=='Tarjeta credito Aline':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
-            saldoinicial=0
+            saldoinicial=-0
 
             debitototal=DiarioFinal2['Monto'].sum()
             col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-            col9.metric("Saldo Credito",abs(debitototal)+saldoinicial, "%")
+            col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
             col11.button('Pagar tarjeta credito Aline')
 
         
