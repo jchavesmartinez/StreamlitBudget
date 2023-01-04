@@ -258,7 +258,7 @@ with st.expander("Saldos"):
                 with st.form("PagoAline"):
                     cuenta_option22 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'),key='pagoaline1')            
                 #    monto_ingreso2 = st.number_input('Monto',key='pagoaline2')
-                    submitted4 = st.form_submit_button("Confirmar pago",key='pagoaline3')
+                    submitted4 = st.form_submit_button("Confirmar pago Aline")
                 
                 if submitted4:
                 #    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Aline', "Nota": 'Pago tarjeta de credito Aline'})
