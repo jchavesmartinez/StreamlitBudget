@@ -102,7 +102,6 @@ with st.expander("Ingresos"):
 with st.expander("Gastos"):
     
     if st.checkbox("Registrar gasto"):
-
         
         with st.form("my_form2"):
             motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'))
@@ -244,7 +243,19 @@ with st.expander("Saldos"):
             col9.metric("Saldo Credito",debitototal+saldoinicial, "%")
 
             if st.button('Pagar tarjeta credito Jose',key="PagoTarjetaAline"):
-                st.write("Holi")
+                
+                with st.form("my_form2"):
+                    motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'))
+                    cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta de credito Aline'))            
+                    monto_ingreso2 = st.number_input('Monto')
+                    #currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
+                    nota_input2 = st.text_input('Comentario')
+                    submitted2 = st.form_submit_button("Submit")
+                
+                if submitted2:
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
+                    st.success('This is a success message!!', icon="✅")
+                    st.experimental_rerun()
 
         
         st.dataframe(DiarioFinal2,use_container_width=True)
