@@ -217,18 +217,17 @@ with st.expander("Saldos"):
 
         if cuenta_option2=='Ambas':
             saldoinicial=-322862.82+0
-
             debitototal=DiarioFinal2['Monto'].sum()
-            col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-            col9.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
+            col27, col28, col29, col210,col211 = st.columns([1,1.2,1,1,1])
+            col29.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
         elif cuenta_option2=='Tarjeta credito Jose':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=-322862.82
 
             debitototal=DiarioFinal2['Monto'].sum()
-            col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-            col9.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
+            col17, col18, col19, col110,col111 = st.columns([1,1.2,1,1,1])
+            col19.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
             if st.checkbox("Pagar tarjeta Jose"):
                 
@@ -250,8 +249,8 @@ with st.expander("Saldos"):
             saldoinicial=-0
 
             debitototal=DiarioFinal2['Monto'].sum()
-            col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-            col9.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
+            col37, col338, col39, col310,col311 = st.columns([1,1.2,1,1,1])
+            col39.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
             if st.checkbox("Pagar tarjeta Aline"):
                 
