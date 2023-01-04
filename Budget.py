@@ -206,7 +206,7 @@ with st.expander("Saldos"):
             fechafiltrar2= mes_option2 + ' I '
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
         elif quicena_option2=='Segunda quincena':
-            fechafiltrar2= mes_option`2` + ' II '
+            fechafiltrar2= mes_option2 + ' II '
             DiarioFinal2=Diario[Diario['Fecha']==fechafiltrar2]
         elif quicena_option2=='Ambas':
             DiarioFinal2=Diario[Diario['Fecha'].str.contains(mes_option2)]      
