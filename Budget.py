@@ -214,6 +214,10 @@ with st.expander("Saldos"):
        
         if cuenta_option2!='Ambas':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
+        if cuenta_option2!='Tarjeta credito Jose':
+            saldoinicial=359293.82
+        if cuenta_option2!='Tarjeta credito Aline':
+            saldoinicial=0
        
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
         DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
@@ -221,7 +225,7 @@ with st.expander("Saldos"):
 
         debitototal=DiarioFinal2['Monto'].sum()
         col7, col8, col9, col10,col11 = st.columns([1,1.2,1,1,1])
-        col9.metric("Saldo Credito", debitototal, "4%")
+        col9.metric("Saldo Credito", debitototal+saldoinicial, "4%")
         
         st.dataframe(DiarioFinal2,use_container_width=True)
 
