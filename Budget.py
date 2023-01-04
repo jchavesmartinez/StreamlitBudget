@@ -231,7 +231,7 @@ with st.expander("Saldos"):
 
             if st.checkbox("Pagar tarjeta Jose"):
                 
-                with st.form("my_form2",key='PagoJose'):
+                with st.form("my_form21",key='PagoJose'):
                     cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'))            
                     monto_ingreso2 = st.number_input('Monto')
                     submitted3 = st.form_submit_button("Confirmar pago")
@@ -254,7 +254,7 @@ with st.expander("Saldos"):
 
             if st.checkbox("Pagar tarjeta Aline"):
                 
-                with st.form("my_form2",key="PagoAline"):
+                with st.form("my_form22",key="PagoAline"):
                     cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'),key='pagoaline1')            
                     monto_ingreso2 = st.number_input('Monto',key='pagoaline2')
                     submitted4 = st.form_submit_button("Confirmar pago",key='pagoaline3')
