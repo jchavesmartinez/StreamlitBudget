@@ -221,7 +221,7 @@ with st.expander("Saldos"):
             col27, col28, col29, col210,col211 = st.columns([1,1.2,1,1,1])
             col29.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
-        elif cuenta_option2=='Tarjeta credito Jose':
+        if cuenta_option2=='Tarjeta credito Jose':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=-322862.82
 
@@ -229,22 +229,22 @@ with st.expander("Saldos"):
             col17, col18, col19, col110,col111 = st.columns([1,1.2,1,1,1])
             col19.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
 
-            #if st.checkbox("Pagar tarjeta Jose"):
+            if st.checkbox("Pagar tarjeta Jose"):
                 
-            #    with st.form("my_form2",key='PagoJose'):
-            #        cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'))            
-            #        monto_ingreso2 = st.number_input('Monto')
-            #        submitted3 = st.form_submit_button("Confirmar pago")
+                with st.form("my_form2",key='PagoJose'):
+                    cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline'))            
+                    monto_ingreso2 = st.number_input('Monto')
+                    submitted3 = st.form_submit_button("Confirmar pago")
                 
-            #    if submitted3:
-            #        db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Jose', "Nota": 'Pago tarjeta de credito Jose'})
-            #        db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": 'Pago tarjeta de credito Jose'})
-            #        st.success('This is a success message!!', icon="✅")
-            #        st.experimental_rerun()
+                if submitted3:
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Jose', "Nota": 'Pago tarjeta de credito Jose'})
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": 'Pago tarjeta de credito Jose'})
+                    st.success('This is a success message!!', icon="✅")
+                    st.experimental_rerun()
 
 
 
-        elif cuenta_option2=='Tarjeta credito Aline':
+        if cuenta_option2=='Tarjeta credito Aline':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=-0
 
@@ -265,7 +265,7 @@ with st.expander("Saldos"):
                     st.success('This is a success message!!', icon="✅")
                     st.experimental_rerun()
         
-        #st.dataframe(DiarioFinal2,use_container_width=True)
+        st.dataframe(DiarioFinal2,use_container_width=True)
 
     with tab5:
         st.dataframe(Tasas0,use_container_width=True)
