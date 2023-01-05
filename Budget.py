@@ -161,7 +161,7 @@ with st.expander("Metricas y resultados"):
 
     with tab1:
         col1, col2, col3, col4,col5 = st.columns([1,1,1,1,1])
-        col1.metric("Temperature", int(Gastos_faltantes), "1.2 °F")
+        #col1.metric("Temperature", int(Gastos_faltantes), "1.2 °F")
         col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()))
         col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()))
         col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()))
