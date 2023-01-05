@@ -104,7 +104,7 @@ with st.expander("Gastos"):
     if st.checkbox("Registrar gasto"):
         
         with st.form("my_form2"):
-            motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'))
+            motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota Carro','Internet','Eletricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'))
             cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta credito Aline'))            
             monto_ingreso2 = st.number_input('Monto')
             #currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
