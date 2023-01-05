@@ -168,7 +168,7 @@ with st.expander("Metricas y resultados"):
 
     if genre == 'Todo':
         Mostrar=DiarioFinal1
-        indicador=0
+        indicador=''
         Etiqueta=''
     elif genre == 'Superavit':
         Mostrar=Superavit
