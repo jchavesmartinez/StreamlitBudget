@@ -154,6 +154,7 @@ with st.expander("Metricas y resultados"):
     DiarioCalculosA=DiarioFinalActual1[(DiarioFinalActual1.Motivo != "Salario")]
     DiarioCalculosA=DiarioCalculosA[(DiarioCalculosA.Motivo != "Ingresos Extra")]
 
+    DiarioFinal1=DiarioFinal1.reset_index(inplace=True)
     Superavit=DiarioFinal1[(DiarioFinal1.Motivo != "Salario")]
     Superavit=Superavit[Superavit['Saldo Presupuestado'] > 0]
     Superavit1=Superavit['Saldo Disponible'].sum()
