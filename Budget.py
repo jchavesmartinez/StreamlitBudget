@@ -171,11 +171,11 @@ with st.expander("Metricas y resultados"):
     elif genre == 'Superavit':
         Mostrar=Superavit
         indicador=Superavit1
-        Etiqueta='Gastos excedidos'
+        Etiqueta='Gastos por cubrir'
     elif genre == 'Deficit':
         Mostrar=Deficit
         indicador=Deficit1
-        Etiqueta='Gastos por cubrir'
+        Etiqueta='Gastos excedidos'
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
