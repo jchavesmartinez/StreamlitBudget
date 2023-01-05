@@ -249,7 +249,7 @@ with st.expander("Saldos"):
             saldoinicial=-0
             debitototal=DiarioFinal2['Monto'].sum()
             col37, col338, col39, col310,col311 = st.columns([1,1.2,1,1,1])
-            col39.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
+            col39.metric("Saldo Credito",int(abs(debitototal+saldoinicial)), "%")
 
             if st.checkbox("Pagar tarjeta Aline"):
 
