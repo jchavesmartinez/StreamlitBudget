@@ -105,7 +105,7 @@ with st.expander("Gastos"):
         
         with st.form("my_form2"):
             motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota carro','Internet','Eletricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'))
-            cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta de credito Aline'))            
+            cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta credito Aline'))            
             monto_ingreso2 = st.number_input('Monto')
             #currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
             nota_input2 = st.text_input('Comentario')
@@ -247,7 +247,6 @@ with st.expander("Saldos"):
         if cuenta_option2=='Tarjeta credito Aline':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
             saldoinicial=-0
-
             debitototal=DiarioFinal2['Monto'].sum()
             col37, col338, col39, col310,col311 = st.columns([1,1.2,1,1,1])
             col39.metric("Saldo Credito",abs(debitototal+saldoinicial), "%")
