@@ -154,12 +154,20 @@ with st.expander("Metricas y resultados"):
     DiarioCalculosA=DiarioFinalActual1[(DiarioFinalActual1.Motivo != "Salario")]
     DiarioCalculosA=DiarioCalculosA[(DiarioCalculosA.Motivo != "Ingresos Extra")]
 
-    Gastos_faltantes=DiarioFinal1[DiarioFinal1['Saldo Disponible'] < 0]
-    Gastos_faltantes1=Gastos_faltantes['Saldo Disponible'].sum()
+    Sobrantes=DiarioFinal1[DiarioFinal1['Saldo Disponible'] > 0]
+    Gastos_faltantes1=Sobrantes['Saldo Disponible'].sum()
 
     genre = st.radio(
     "What\'s your favorite movie genre",
     ('Todo', 'Sobrantes', 'Excedentes'))
+
+    if genre == 'Todo':
+        Mostrar=DiarioFinal1
+    elif genre == 'Sobrantes':
+        Mostrar=Sobrantes
+    elif genre == 'Excedentes':
+        Mostrar=Sobrantes
+
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
@@ -171,7 +179,7 @@ with st.expander("Metricas y resultados"):
         col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()))
         col5.metric("Saldo Consumido", str(-int(DiarioCalculosA['Monto'].sum()/DiarioCalculosP['Monto'].sum()*100))+'%')
         #st.dataframe(DiarioFinal1,use_container_width=True)
-        st.dataframe(Gastos_faltantes,use_container_width=True)
+        st.dataframe(Mostrar,use_container_width=True)
 
     with tab2:
         st.write("Proximamente grafiquitos bonitos")
