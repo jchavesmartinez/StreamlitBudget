@@ -157,8 +157,10 @@ with st.expander("Metricas y resultados"):
     Gastos_faltantes=DiarioFinal1[DiarioFinal1['Saldo Disponible'] < 0]
     Gastos_faltantes1=Gastos_faltantes['Saldo Disponible'].sum()
 
-    st.checkbox("Registrar gasto2")
-    st.checkbox("Registrar gasto3")
+    genre = st.radio(
+    "What\'s your favorite movie genre",
+    ('Todo', 'Sobrantes', 'Excedentes'))
+
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
