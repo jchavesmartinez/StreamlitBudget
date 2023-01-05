@@ -172,18 +172,18 @@ with st.expander("Metricas y resultados"):
         Etiqueta=''
     elif genre == 'Superavit':
         Mostrar=Superavit
-        indicador=Superavit1
+        indicador=int(Superavit1)
         Etiqueta='Gastos por cubrir'
     elif genre == 'Deficit':
         Mostrar=Deficit
-        indicador=Deficit1
+        indicador=int(Deficit1)
         Etiqueta='Gastos excedidos'
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
         col1, col2, col3, col4,col5 = st.columns([1,1,1,1,1])
-        col1.metric(Etiqueta, int(indicador))
+        col1.metric(Etiqueta, indicador)
         col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()))
         col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()))
         col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()))
