@@ -154,26 +154,31 @@ with st.expander("Metricas y resultados"):
     DiarioCalculosA=DiarioFinalActual1[(DiarioFinalActual1.Motivo != "Salario")]
     DiarioCalculosA=DiarioCalculosA[(DiarioCalculosA.Motivo != "Ingresos Extra")]
 
-    Sobrantes=DiarioFinal1[DiarioFinal1['Saldo Disponible'] > 0]
-    Gastos_faltantes1=Sobrantes['Saldo Disponible'].sum()
+    Superavit=DiarioFinal1[DiarioFinal1['Saldo Disponible'] > 0]
+    Superavit1=Superavit['Saldo Disponible'].sum()
+
+    Deficit=DiarioFinal1[DiarioFinal1['Saldo Disponible'] < 0]
+    Deficit1=Deficit['Saldo Disponible'].sum()
 
     genre = st.radio(
     "What\'s your favorite movie genre",
-    ('Todo', 'Sobrantes', 'Excedentes'))
+    ('Todo', 'Deficit', 'Superavit'))
 
     if genre == 'Todo':
         Mostrar=DiarioFinal1
-    elif genre == 'Sobrantes':
-        Mostrar=Sobrantes
-    elif genre == 'Excedentes':
-        Mostrar=Sobrantes
-
+        indicador=0
+    elif genre == 'Superavit':
+        Mostrar=Superavit
+        indicador=Superavit1
+    elif genre == 'Deficit':
+        Mostrar=Deficit
+        indicador=Deficit1
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
         col1, col2, col3, col4,col5 = st.columns([1,1,1,1,1])
-        col1.metric("Temperature", int(Gastos_faltantes1), "1.2 °F")
+        col1.metric("Temperature", int(indicador), "1.2 °F")
         col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()))
         col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()))
         col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()))
