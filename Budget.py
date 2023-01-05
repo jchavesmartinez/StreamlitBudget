@@ -95,7 +95,7 @@ with st.expander("Ingresos"):
             submitted = st.form_submit_button("Submit")
         
         if submitted:
-            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option, "Tipo": 'Ingreso', "Monto": -monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option, "Nota": nota_input})
+            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": motivo_option, "Tipo": 'Ingreso', "Monto": -monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option, "Nota": nota_input})
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
@@ -112,7 +112,7 @@ with st.expander("Gastos"):
             submitted2 = st.form_submit_button("Submit")
         
         if submitted2:
-            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
+            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
@@ -237,8 +237,8 @@ with st.expander("Saldos"):
                     submitted31 = st.form_submit_button("Confirmar pago Jose")
                 
                 if submitted31:
-                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso21, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Jose', "Nota": 'Pago tarjeta de credito Jose'})
-                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso21, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option21, "Nota": 'Pago tarjeta de credito Jose'})
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso21, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Jose', "Nota": 'Pago tarjeta de credito Jose'})
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+3, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso21, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option21, "Nota": 'Pago tarjeta de credito Jose'})
                     st.success('This is a success message!!', icon="✅")
                     st.experimental_rerun()
 
@@ -259,8 +259,8 @@ with st.expander("Saldos"):
                     submitted4 = st.form_submit_button("Confirmar pago Aline")
                 
                 if submitted4:
-                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+1, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Aline', "Nota": 'Pago tarjeta de credito Aline'})
-                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": 'Pago tarjeta de credito Aline'})
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+2, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": 'Tarjeta credito Aline', "Nota": 'Pago tarjeta de credito Aline'})
+                    db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+3, "Motivo": 'Tasa 0', "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": 'Pago tarjeta de credito Aline'})
                     st.success('This is a success message!!', icon="✅")
                     st.experimental_rerun()
         
