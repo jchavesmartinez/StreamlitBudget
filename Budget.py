@@ -155,7 +155,7 @@ with st.expander("Metricas y resultados"):
     DiarioCalculosA=DiarioCalculosA[(DiarioCalculosA.Motivo != "Ingresos Extra")]
 
     Gastos_faltantes=DiarioFinal1[DiarioFinal1['Saldo Disponible'] > 0]
-    Gastos_faltantes=DiarioFinal1['Saldo Disponible'].sum()
+    #Gastos_faltantes=DiarioFinal1['Saldo Disponible'].sum()
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
@@ -166,7 +166,8 @@ with st.expander("Metricas y resultados"):
         col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()))
         col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()))
         col5.metric("Saldo Consumido", str(-int(DiarioCalculosA['Monto'].sum()/DiarioCalculosP['Monto'].sum()*100))+'%')
-        st.dataframe(DiarioFinal1,use_container_width=True)
+        #st.dataframe(DiarioFinal1,use_container_width=True)
+        st.dataframe(Gastos_faltantes,use_container_width=True)
 
     with tab2:
         st.write("Proximamente grafiquitos bonitos")
