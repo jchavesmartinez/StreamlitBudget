@@ -154,12 +154,13 @@ with st.expander("Metricas y resultados"):
     DiarioCalculosA=DiarioFinalActual1[(DiarioFinalActual1.Motivo != "Salario")]
     DiarioCalculosA=DiarioCalculosA[(DiarioCalculosA.Motivo != "Ingresos Extra")]
 
+    Gastos_faltantes=sum(DiarioCalculosA[(DiarioCalculosA.Monto >= 0)])
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
     with tab1:
         col1, col2, col3, col4,col5 = st.columns([1,1,1,1,1])
-        #col1.metric("Temperature", "70 °F", "1.2 °F")
+        col1.metric("Temperature", Gastos_faltantes, "1.2 °F")
         col2.metric("Saldo Presupuestado", int(DiarioCalculosP['Monto'].sum()))
         col3.metric("Saldo Consumido", int(DiarioCalculosA['Monto'].sum()))
         col4.metric("Saldo Disponible", int(DiarioCalculosP['Monto'].sum())+int(DiarioCalculosA['Monto'].sum()))
