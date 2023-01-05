@@ -154,7 +154,7 @@ with st.expander("Metricas y resultados"):
     DiarioCalculosA=DiarioFinalActual1[(DiarioFinalActual1.Motivo != "Salario")]
     DiarioCalculosA=DiarioCalculosA[(DiarioCalculosA.Motivo != "Ingresos Extra")]
 
-    #Gastos_faltantes=sum(DiarioFinal1[(DiarioFinal1['Saldo Disponible'] >= 0)])
+    Gastos_faltantes=DiarioFinal1[DiarioFinal1['Saldo Disponible'] > 0] 
 
     tab1, tab2= st.tabs(["Metricas", "Resumen"])
 
