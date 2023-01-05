@@ -189,7 +189,7 @@ with st.expander("Saldos"):
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
         
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
-        DiarioFinal2=DiarioFinal2.drop(columns=['_id', 'Escenario', 'Fecha'])
+        DiarioFinal2=DiarioFinal2.drop(columns=['Escenario', 'Fecha'])
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('debito')]
 
         debitototal=(DiarioFinal2[DiarioFinal2['Tipo']=='Ingreso']['Monto'].sum())*-1+DiarioFinal2[DiarioFinal2['Tipo']=='Gasto']['Monto'].sum()
