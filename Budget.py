@@ -31,26 +31,14 @@ Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Tasas0.csv"
 Tasas0 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
-#CONNECTION_STRING = 'mongodb://presupuesto2023:CBCE5lRc5JX778aCQVXb9EmUJAnEA76qYuC3XAElUjuhkoJXJoy0pt4C0EZgHEygtT1R2j2iI1mvACDb6ljS4w==@presupuesto2023.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@presupuesto2023@' # Prompts user for connection string
-#DB_NAME = "Presupuesto"
+CONNECTION_STRING = 'mongodb://presupuesto2023:CBCE5lRc5JX778aCQVXb9EmUJAnEA76qYuC3XAElUjuhkoJXJoy0pt4C0EZgHEygtT1R2j2iI1mvACDb6ljS4w==@presupuesto2023.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@presupuesto2023@' # Prompts user for connection string
+DB_NAME = "Presupuesto"
 
-#client = pymongo.MongoClient(CONNECTION_STRING)
-#db = client[DB_NAME]
-#cursor = db.COLLECTION_DIARIO # choosing the collection you need
+client = pymongo.MongoClient(CONNECTION_STRING)
+db = client[DB_NAME]
+cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
-#Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
-
-URL = "https://prueba-arimafintech.harperdbcloud.com"
-USERNAME = "ARIMAFINTECH"
-PASSWORD = "Jccm130199!"
-
-db = harperdb.HarperDB(url=URL, username=USERNAME, password=PASSWORD)
-
-SCHEMA = "ARIMA"
-TABLE = "diario"
-
-Diario=pd.DataFrame(db.sql("SELECT * FROM ARIMA.diario"))
-Diario=Diario.drop(['email', 'name','__updatedtime__','__createdtime__'], axis=1)
+Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
 
 
 hoy=date.today().strftime("%d-%b-%Y")
@@ -127,8 +115,7 @@ with st.expander("Gastos"):
             submitted2 = st.form_submit_button("Submit")
         
         if submitted2:
-            #db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+13, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
-            db.sql("INSERT INTO ARIMA.diario (name, email) VALUES ('LordGhostX', 'lordghostx@email.com')")
+            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+13, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
