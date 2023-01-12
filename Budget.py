@@ -50,7 +50,7 @@ SCHEMA = "ARIMA"
 TABLE = "diario"
 
 Diario=pd.DataFrame(db.sql("SELECT * FROM ARIMA.diario"))
-Diario.drop(['__updatedtime__', '__createdtime__:'], axis=1)
+#Diario.drop(['__updatedtime__', '__createdtime__:'], axis=1)
 
 
 hoy=date.today().strftime("%d-%b-%Y")
