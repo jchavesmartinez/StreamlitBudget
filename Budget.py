@@ -127,7 +127,8 @@ with st.expander("Gastos"):
             submitted2 = st.form_submit_button("Submit")
         
         if submitted2:
-            db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+13, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
+            #db.COLLECTION_DIARIO.insert_one({"_id": len(Diario)+13, "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
+            db.sql("INSERT INTO ARIMA.diario (name, email) VALUES ('LordGhostX', 'lordghostx@email.com')")
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
