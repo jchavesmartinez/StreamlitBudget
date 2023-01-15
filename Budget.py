@@ -74,7 +74,7 @@ elif mes==12:
 
 if int(dia)<15:
     quincena=' I '
-if int(dia)>15:
+if int(dia)>=15:
     quincena=' II '
 
 fecha=mes+quincena
