@@ -43,7 +43,7 @@ Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
 
 hoy=date.today().strftime("%d-%b-%Y")
 mes=datetime.now().date().month
-dia=date.today().strftime("%d")
+dia=int(date.today().strftime("%d"))+10
 
 st.write(hoy)
 
