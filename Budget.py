@@ -45,7 +45,7 @@ mes=int(datetime.now().date().month)
 dia=int(date.today().strftime("%d"))
 
 st.write(hoy)
-st.write('hoy')
+
 
 if mes==1:
     mes='Enero'
