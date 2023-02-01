@@ -42,8 +42,8 @@ Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
 
 
 hoy=date.today().strftime("%d-%b-%Y")
-mes=int(datetime.now().date().month)+1
-dia=int(date.today().strftime("%d"))-20
+mes=int(datetime.now().date().month)
+dia=int(date.today().strftime("%d"))
 
 st.write(hoy)
 
