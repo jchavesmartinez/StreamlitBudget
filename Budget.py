@@ -230,6 +230,9 @@ with st.expander("Saldos"):
         
         if cuenta_option2 !='Ambas':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
+
+        if tipo_gasto2:
+            st.write("hola")
         
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Escenario']=='2. Actual']
         DiarioFinal2=DiarioFinal2.drop(columns=['Escenario', 'Fecha'])
