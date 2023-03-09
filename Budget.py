@@ -216,7 +216,7 @@ with st.expander("Saldos"):
         mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key='mes2')
         quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena2')
         cuenta_option2 = st.selectbox('Seleccione una cuenta',('Ambas','Tarjeta debito Jose', 'Tarjeta debito Aline'),key='cuenta')
-        tipo_gasto2= st.selectbox('Seleccione una cuenta',('Ambas','Tarjeta debito Jose', 'Tarjeta debito Aline'),key='gastotipo')
+        tipo_gasto2= st.selectbox('Seleccione el motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota Carro','Internet','Electricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'),key='gastotipo')
 
 
         if  quicena_option2=='Primera quincena':
