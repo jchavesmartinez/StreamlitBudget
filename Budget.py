@@ -86,6 +86,9 @@ fecha=mes+quincena
 
 st.write(fecha)
 
+st.write('CUENTA PAGO HIPOTECA: CR94015202001166365111')
+st.write('CONTRATO ELECTRICIDAD: 773829')
+
 
 with st.expander("Presupuesto 2023"):
     st.dataframe(Budget2023,use_container_width=True)
