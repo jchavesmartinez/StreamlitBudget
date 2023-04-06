@@ -51,9 +51,6 @@ db = client[DB_NAME]
 cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
 
-st.dataframe(Diario)
-
-
 hoy=date.today().strftime("%d-%b-%Y")
 mes=int(datetime.now().date().month)
 dia=int(date.today().strftime("%d"))
