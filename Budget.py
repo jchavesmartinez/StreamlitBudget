@@ -51,7 +51,7 @@ cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
 Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
 
-Diario=libro_precios
+st.dataframe(Diario)
 
 
 hoy=date.today().strftime("%d-%b-%Y")
