@@ -49,7 +49,7 @@ db = client[DB_NAME]
 cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
 Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
-Diario=pd.DataFrame(db.sql("SELECT * FROM {0}.{1}".format(SCHEMA,TABLE1)))
+#Diario=pd.DataFrame(db.sql("SELECT * FROM {0}.{1}".format(SCHEMA,TABLE1)))
 
 
 hoy=date.today().strftime("%d-%b-%Y")
