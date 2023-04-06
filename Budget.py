@@ -34,7 +34,7 @@ PASSWORD = "Jccm130199!"
 db = harperdb.HarperDB(url=URL, username=USERNAME, password=PASSWORD)
 SCHEMA= str('PRESUPUESTO_FAMILIAR')
 TABLE1= str('DIARIO')
-libro_precios=pd.DataFrame(db.sql("SELECT * FROM {0}.{1} ORDER BY _id".format(SCHEMA,TABLE1)))
+libro_precios=pd.DataFrame(db.sql("SELECT * FROM {0}.{1}".format(SCHEMA,TABLE1)))
 
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
