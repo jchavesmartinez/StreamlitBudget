@@ -50,11 +50,8 @@ client = pymongo.MongoClient(CONNECTION_STRING)
 db = client[DB_NAME]
 cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
-Diario2=Diario[Diario['Fecha'].str.contains('Enero')]
 
 st.dataframe(Diario)
-
-
 
 
 hoy=date.today().strftime("%d-%b-%Y")
