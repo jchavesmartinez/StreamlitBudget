@@ -27,6 +27,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
+st.title('Joshe')
 
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
