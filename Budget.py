@@ -28,6 +28,13 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 
+URL = "https://prueba-arimafintech.harperdbcloud.com"
+USERNAME = "ARIMAFINTECH"
+PASSWORD = "Jccm130199!"
+db = harperdb.HarperDB(url=URL, username=USERNAME, password=PASSWORD)
+SCHEMA= str('PRESUPUESTO_FAMILIAR')
+TABLE1= str('DIARIO')
+
 path= "https://raw.githubusercontent.com/jchavesmartinez/StreamlitBudget/main/Budget.csv"
 Budget2023 = pd.read_csv(path, encoding='latin-1',index_col=0)
 
@@ -42,6 +49,7 @@ db = client[DB_NAME]
 cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
 Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
+Diario=pd.DataFrame(db.sql("SELECT * FROM {0}.{1}".format(SCHEMA,TABLE1)))
 
 
 hoy=date.today().strftime("%d-%b-%Y")
