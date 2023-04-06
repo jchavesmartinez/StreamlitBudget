@@ -51,6 +51,8 @@ cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
 Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
 
+Diario=libro_precios
+
 
 hoy=date.today().strftime("%d-%b-%Y")
 mes=int(datetime.now().date().month)
