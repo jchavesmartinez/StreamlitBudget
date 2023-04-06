@@ -52,9 +52,9 @@ cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
 Diario = libro_precios
 
-st.dataframe(Diario)
+st.dataframe(Diario[Diario['Fecha'].str.contains('Enero')])
 
-st.dataframe(libro_precios)
+
 
 
 hoy=date.today().strftime("%d-%b-%Y")
@@ -158,8 +158,8 @@ with st.expander("Metricas y resultados"):
     elif quicena_option=='Segunda quincena':
         fechafiltrar= mes_option + ' II '
         DiarioFinal=Diario[Diario['Fecha']==fechafiltrar]
-    #elif quicena_option=='Ambas':
-    #    DiarioFinal=Diario[Diario['Fecha'].str.contains(mes_option)]
+    elif quicena_option=='Ambas':
+        DiarioFinal=Diario[Diario['Fecha'].str.contains(mes_option)]
     
     DiarioFinalPresupuesto=DiarioFinal[DiarioFinal['Escenario']=='1. Presupuesto']
     DiarioFinalPresupuesto1=DiarioFinalPresupuesto
