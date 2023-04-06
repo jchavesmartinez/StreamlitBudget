@@ -53,6 +53,8 @@ Diario = pd.DataFrame(list(db.COLLECTION_DIARIO.find({})))
 
 st.dataframe(Diario)
 
+st.dataframe(libro_precios)
+
 
 hoy=date.today().strftime("%d-%b-%Y")
 mes=int(datetime.now().date().month)
