@@ -24,7 +24,7 @@ hide_menu_style = """
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-
+st.title('Holi')
 
 st.title('Presupuesto 2023 Maldonado Chaves SA de CV')
 
