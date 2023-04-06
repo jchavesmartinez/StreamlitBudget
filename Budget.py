@@ -151,6 +151,7 @@ with st.expander("Gastos"):
 with st.expander("Metricas y resultados"):
     
     mes_option = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key="mes1")
+    mes_option='Abril'
     quicena_option = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena1')
     if  quicena_option=='Primera quincena':
         fechafiltrar= mes_option + ' I '
