@@ -52,7 +52,9 @@ cursor = db.COLLECTION_DIARIO # choosing the collection you need
 
 Diario = libro_precios
 
-st.dataframe(Diario[Diario['Fecha'].str.contains('Enero')])
+Diario2=Diario[Diario['Fecha'].str.contains('Enero')]
+
+st.dataframe(Diario2)
 
 
 
