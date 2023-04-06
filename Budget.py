@@ -110,7 +110,9 @@ with st.expander("Ingresos"):
                 monto_ingreso=monto_ingreso*30
         
         if submitted:
-            db.COLLECTION_DIARIO.insert_one({"_id": int(time.time()*1000.0), "Motivo": motivo_option, "Tipo": 'Ingreso', "Monto": -monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option, "Nota": nota_input})
+            #db.COLLECTION_DIARIO.insert_one({"_id": int(time.time()*1000.0), "Motivo": motivo_option, "Tipo": 'Ingreso', "Monto": -monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option, "Nota": nota_input})
+            db.insert(SCHEMA, "diario", [{"_id": int(time.time()*1000.0), "Motivo": motivo_option, "Tipo": 'Ingreso', "Monto": -monto_ingreso, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option, "Nota": nota_input}])
+                            
             st.success('This is a success message!!', icon="✅")
             st.experimental_rerun()
 
