@@ -119,7 +119,7 @@ with st.expander("Gastos"):
     if st.checkbox("Registrar gasto"):
         
         with st.form("my_form2"):
-            motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota Carro','Internet','Electricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'))
+            motivo_option2 = st.selectbox('Motivo',('Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota Carro','Internet','Electricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento','Cuidado personal','Medicinas','Seguro medico','Transporte Publico'))
             cuenta_option2 = st.selectbox('Cuenta Bancaria',('Tarjeta debito Jose', 'Tarjeta debito Aline', 'Tarjeta credito Jose','Tarjeta credito Aline'))            
             monto_ingreso2 = st.number_input('Monto')
             currency_option2 = st.selectbox('Moneda',('Colones', 'Pesos', 'USD'))
@@ -220,7 +220,7 @@ with st.expander("Saldos"):
         mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key='mes2')
         quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena2')
         cuenta_option2 = st.selectbox('Seleccione una cuenta',('Ambas','Tarjeta debito Jose', 'Tarjeta debito Aline'),key='cuenta')
-        tipo_gasto2= st.selectbox('Seleccione el motivo',('Todo','Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota Carro','Internet','Electricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'),key='gastotipo')
+        tipo_gasto2= st.selectbox('Seleccione el motivo',('Todo','Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota Carro','Internet','Electricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento','Cuidado personal','Medicinas','Seguro medico','Transporte Publico'),key='gastotipo')
 
 
         if  quicena_option2=='Primera quincena':
@@ -256,7 +256,7 @@ with st.expander("Saldos"):
         mes_option2 = st.selectbox('Seleccione un mes',('Enero', 'Febrero', 'Marzo','Abril','Mayo','Junio','Julio','Agosto','Setiembre'),key='mes3')
         quicena_option2 = st.selectbox('Seleccione la quincena',('Ambas','Primera quincena', 'Segunda quincena'),key='quincena3')
         cuenta_option2 = st.selectbox('Seleccione una cuenta',('Ambas','Tarjeta credito Jose', 'Tarjeta credito Aline'),key='cuenta3')
-        tipo_gasto2= st.selectbox('Seleccione el motivo',('Todo','Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota Carro','Internet','Electricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento'),key='gastotipo3')
+        tipo_gasto2= st.selectbox('Seleccione el motivo',('Todo','Hipoteca', 'Cuota Condominio', 'Tasa 0','Boletos','Celular','Regalos','Ahorro','Entretenimiento','Mascotas','Marchamo y seguros','Ropa','Gas','Comida','Viajes','Cuota Carro','Internet','Electricidad','Comida afuera','Agua','Casa Mantenimiento','Carro Mantenimiento','Cuidado personal','Medicinas','Seguro medico','Transporte Publico'),key='gastotipo3')
 
         if  quicena_option2=='Primera quincena':
             fechafiltrar2= mes_option2 + ' I '
