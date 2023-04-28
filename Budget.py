@@ -291,7 +291,7 @@ with st.expander("Saldos"):
 
             debitototal=DiarioFinal2['Monto'].sum()
             col17, col18, col19, col110,col111 = st.columns([1,1.2,1,1,1])
-            col19.metric("Saldo Credito",int(abs(debitototal+saldoinicial)), "%")
+            col19.metric("Saldo Credito",int(abs(debitototal)), "%")
 
             if st.checkbox("Pagar tarjeta Jose"):
                 
