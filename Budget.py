@@ -133,9 +133,8 @@ with st.expander("Gastos"):
             #db.COLLECTION_DIARIO.insert_one({"_id": int(time.time()*1000.0), "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2})
             db.insert(SCHEMA, TABLE1, [{"_id": int(time.time()*1000.0), "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2}])
             
-            st.success('This is a success message!!', icon="✅")
             with st.spinner('Gasto con éxito'):
-                    time.sleep(5)    
+                    time.sleep(2)    
                 
             st.experimental_rerun()
 
