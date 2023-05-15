@@ -134,7 +134,7 @@ with st.expander("Gastos"):
             db.insert(SCHEMA, TABLE1, [{"_id": int(time.time()*1000.0), "Motivo": motivo_option2, "Tipo": 'Gasto', "Monto": -monto_ingreso2, "Fecha": fecha, "Escenario": '2. Actual', "Cuenta": cuenta_option2, "Nota": nota_input2}])
             
             with st.spinner('Gasto con éxito'):
-                    time.sleep(2)    
+                    time.sleep(1)    
                 
             st.experimental_rerun()
 
