@@ -280,7 +280,7 @@ with st.expander("Saldos"):
         DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta'].str.contains('credito')]
 
         if cuenta_option2=='Ambas':
-            saldoinicial=601788.89-18894.11
+            saldoinicial=601788.89-18894.11+33240.81
             
             debitototal=DiarioFinal2['Monto'].sum()
             col27, col28, col29, col210,col211 = st.columns([1,1.2,1,1,1])
@@ -315,7 +315,7 @@ with st.expander("Saldos"):
 
         if cuenta_option2=='Tarjeta credito Aline':
             DiarioFinal2=DiarioFinal2[DiarioFinal2['Cuenta']==cuenta_option2]
-            saldoinicial=0
+            saldoinicial=33240.81
             debitototal=DiarioFinal2['Monto'].sum()
             col37, col338, col39, col310,col311 = st.columns([1,1.2,1,1,1])
             col39.metric("Saldo Credito",int(debitototal+saldoinicial), "%")
